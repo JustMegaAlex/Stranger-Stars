@@ -23,12 +23,16 @@ rotation_sp = 90/room_speed;
 accel = 0.01;
 rel_target_dir = 0;	//относительное направление к точке следования
 rotationDir = 0;	//куда вращаться чтобы выйти на точку следования
+hull_full_durability = 100 //прочность корпуса начальная
+hull_durability = hull_full_durability	//=//= текущая
 
+
+//траектория
 _x = 0;
 _y = 1
 _sp = 2;
 _angle = 3;
-trajectParNumber = 4;
+trajectParNumber = 4; //число параметров траектории
 gridTraject = ds_grid_create(trajectParNumber,0);
 
 

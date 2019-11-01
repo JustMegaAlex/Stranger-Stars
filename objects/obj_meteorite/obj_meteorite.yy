@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_meteorite",
     "eventList": [
-        
+        {
+            "id": "d76eb29f-ff34-4c7f-9241-25491e3e2523",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "f5f707db-a459-415b-943c-80e00f953212"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
