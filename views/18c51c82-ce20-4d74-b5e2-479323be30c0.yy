@@ -1,0 +1,19 @@
+{
+    "id": "18c51c82-ce20-4d74-b5e2-479323be30c0",
+    "modelName": "GMFolder",
+    "mvc": "1.1",
+    "name": "18c51c82-ce20-4d74-b5e2-479323be30c0",
+    "children": [
+        "ccadb242-25e0-422f-872f-4227c02ebf7b",
+        "7a96eb20-0cd0-493e-8350-832fdbbc8820",
+        "0c5988ab-1d80-44b5-bd45-4df25a32f051",
+        "6539e714-1502-4225-98e9-20b98611ac90",
+        "1dd22e1a-1c6f-4fde-b4ff-2d0a9af71778",
+        "326243ab-3c90-47ee-902b-8945e3ca86d4",
+        "97af87d9-c936-445a-86cf-a99c0c346349"
+    ],
+    "filterType": "GMScript",
+    "folderName": "Ship",
+    "isDefaultView": false,
+    "localisedFolderName": ""
+}
