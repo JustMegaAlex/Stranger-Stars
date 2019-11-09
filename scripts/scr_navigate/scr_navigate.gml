@@ -5,7 +5,7 @@ switch navigate_phase
 			scr_move(sp, image_angle)
 			sp = scr_accelerate(accel, 0)
 			
-			if mouse_left or set_navigation_true{
+			if set_navigation_true {
 				set_navigation_true = false
 				
 				target_dir = scr_get_dir_to_point(target_x,target_y)
@@ -50,10 +50,6 @@ switch navigate_phase
 				navigate_phase = Navigation.approach
 			}
 			
-			if mouse_left {
-				navigate_phase = Navigation.stay
-				set_navigation_true = true
-			}
 			break	
 		}
 		
@@ -77,10 +73,6 @@ switch navigate_phase
 			scr_move(sp, image_angle)
 			sp = scr_accelerate(accel,sp_max)
 			
-			if mouse_left {
-				navigate_phase = Navigation.stay
-				set_navigation_true = true
-			}
 			break	
 		}
 		
