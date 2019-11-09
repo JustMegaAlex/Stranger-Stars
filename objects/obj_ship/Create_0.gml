@@ -1,5 +1,5 @@
 
-//background
+/*/background
 surf_stars = surface_create(room_width,room_height);
 surface_set_target(surf_stars);
 repeat(80)
@@ -10,7 +10,7 @@ surface_reset_target();
 x_room_start = x
 y_room_start = y
 stars_parallax = 0.9
-
+*/
 //ini ship
 sp_max = 2.8;
 sp = 0;
@@ -18,14 +18,17 @@ sp_set = 0; //к какой скорости стремиться
 sp_glide = 0;
 sp_glide_max = 0.2
 glide_distance = 30
-image_angle = 90;
+image_angle = 90
 rotation_sp = 90/room_speed;
 accel = 0.01;
 rel_target_dir = 0;	//относительное направление к точке следования
 rotationDir = 0;	//куда вращаться чтобы выйти на точку следования
 hull_full_durability = 100 //прочность корпуса начальная
 hull_durability = hull_full_durability	//=//= текущая
-
+angle_drifting = rotation_sp * 0.5 //дрифт ориентации при потере управления
+control_lost_time_max = 1.7 * room_speed
+control_lost_time = 0
+direction = 0
 
 //траектория
 _x = 0;
@@ -47,7 +50,8 @@ enum Navigation{
 	get_on_course,
 	get_on_course_deccelerate,
 	approach,
-	glide
+	glide,
+	control_lost
 }
 navigate_phase = Navigation.stay
 set_navigation_true = false

@@ -1,30 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
-
-//input
-mouse_left = mouse_check_button_pressed(mb_left)
-mouse_right = mouse_check_button_pressed(mb_right)
-key_stay = keyboard_check_pressed(ord("S"))
-
-if mouse_left
-	scr_set_fly_target(mouse_x, mouse_y)
-
-//if mouse_right 
-//	image_angle = point_direction(x,y,mouse_x,mouse_y)
-
-if key_stay {
-	navigate_phase = Navigation.stay
-}
-		
-if(!obj_sys.tacticalPauseActivated)
-{
-    ////////////////actions performing
-	//tactical pause button
-    if keyboard_check_pressed(vk_space) {}
-		//scr_tacticalPauseActivate(true);
-	
-	//moving
-	switch navigate_phase
+switch navigate_phase
 	{
 		case Navigation.stay:
 		{
@@ -139,31 +113,3 @@ if(!obj_sys.tacticalPauseActivated)
 			break
 		}
 	}
-}
-else 
-{
-    //ui interact
-    if(keyboard_check_pressed(vk_space))
-    {
-        scr_tacticalPauseActivate(false);
-    }
-}
-
-//scr_cameraSetCenter(view_camera[0],x,y);
-
-///////////////
-/*
-if(mouse_check_button_pressed(mb_middle))
-{
-    viewOnShip = false;
-    mouseRelX = window_mouse_get_x();
-    mouseRelY = window_mouse_get_y();
-    viewRelX = view_xview[0];
-    viewRelY = view_yview[0];
-}
-view_hspeed[0] = 0;
-view_vspeed[0] = 0;
-
-
-mouseXPre = mouse_x;
-mouseYPre = mouse_y;

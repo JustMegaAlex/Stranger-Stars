@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "2ecba650-115e-406c-b073-6c5340c1653b",
+            "Value": {
+                "id": "1d539aa8-2c21-4b4b-9458-925ed4b3ddb2",
+                "resourcePath": "objects\\obj_view\\obj_view.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "316a7980-9612-4f82-96fc-81b420cb574e",
             "Value": {
                 "id": "b13e60b1-6609-4d77-9fa6-0fc398ab6f28",
@@ -287,6 +295,14 @@
             }
         },
         {
+            "Key": "a108d985-a7ff-4996-8bf6-2de86e68f242",
+            "Value": {
+                "id": "cf49dd56-a063-4304-8916-002582a22fe1",
+                "resourcePath": "sprites\\obj_scout\\obj_scout.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a8aac73d-099c-4b91-875e-d0ccd7920dd5",
             "Value": {
                 "id": "d4da0946-d15e-451f-bb9a-0cc672146788",
@@ -300,6 +316,14 @@
                 "id": "6ce30919-4337-4134-864a-504ceb7f9469",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "ab771178-5b6f-45fd-a090-207c719dcf94",
+            "Value": {
+                "id": "c8005bca-8491-4639-9a44-98ef43d621a9",
+                "resourcePath": "scripts\\scr_navigate\\scr_navigate.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -486,6 +510,7 @@
         "97af87d9-c936-445a-86cf-a99c0c346349",
         "ef9406d6-9aa6-4a01-baa6-284bb1c2f50c",
         "fc1ace8e-aa13-491d-ba33-afcd4424e71b",
+        "ab771178-5b6f-45fd-a090-207c719dcf94",
         "549e3238-ddc1-40bf-a093-afeb52bfcfe1"
     ],
     "tutorial": ""

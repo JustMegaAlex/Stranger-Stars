@@ -12,10 +12,22 @@ if aster {
 														aster.x,
 														aster.y)
 	// чем больше смещение, тем меньше эффект от удара
-	var size = aster.sprite_height*0.5
+	var size = ( aster.sprite_height + sprite_width) * 0.5
 	var gain = ( size - abs(displacement)) / size
 	hull_durability -= aster.damage_from_contact * gain * sp
 	if !hull_durability
 		scr_destroy()
-	place_meeting(x, y, aster)
+	
+	//вылезаем из метеорита
+	var dir_out = point_direction(aster.x, aster.y, x, y)
+	while place_meeting(x, y, aster) {
+		x += lengthdir_x(1, dir_out)
+		y += lengthdir_y(1, dir_out)
+	}
+	
+	direction = image_angle + 180 * gain * -sign(displacement)
+	rotationDir = -sign(displacement)
+	navigate_phase = Navigation.control_lost
+	control_lost_time = control_lost_time_max
+	
 }
