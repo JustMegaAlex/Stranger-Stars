@@ -28,7 +28,7 @@ if(!obj_sys.tacticalPauseActivated)
 	{
 		case Navigation.stay:
 		{
-			scr_move(sp, image_angle)
+			scr_move_contact(sp, image_angle)
 			sp = scr_accelerate(accel, 0)
 			
 			if mouse_left or set_navigation_true{
@@ -59,7 +59,7 @@ if(!obj_sys.tacticalPauseActivated)
 		
 		case Navigation.get_on_course:
 		{
-			scr_move(sp, image_angle)
+			scr_move_contact(sp, image_angle)
 			
 			sp = scr_accelerate(accel, sp_set)
 				
@@ -85,7 +85,7 @@ if(!obj_sys.tacticalPauseActivated)
 		
 		case Navigation.get_on_course_deccelerate:
 		{
-			scr_move(sp, image_angle)
+			scr_move_contact(sp, image_angle)
 			
 			sp = scr_accelerate(accel, 0)
 			target_dir = scr_get_dir_to_point(target_x,target_y)
@@ -100,7 +100,7 @@ if(!obj_sys.tacticalPauseActivated)
 		
 		case Navigation.approach:
 		{
-			scr_move(sp, image_angle)
+			scr_move_contact(sp, image_angle)
 			sp = scr_accelerate(accel,sp_max)
 			
 			if mouse_left {
@@ -113,7 +113,7 @@ if(!obj_sys.tacticalPauseActivated)
 		case Navigation.glide:
 		{
 			target_dir = scr_get_dir_to_point(target_x,target_y)
-			scr_move(sp_glide_max, target_dir)
+			scr_move_contact(sp_glide_max, target_dir)
 			
 			var dist = point_distance(x, y, target_x, target_y)
 			//stop
@@ -130,7 +130,7 @@ if(!obj_sys.tacticalPauseActivated)
 		
 		case Navigation.control_lost:
 		{
-			scr_move(sp, direction)
+			scr_move_contact(sp, direction)
 			image_angle += angle_drifting * rotationDir
 			
 			if !control_lost_time--

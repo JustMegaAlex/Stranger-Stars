@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "0e0ed920-0561-4292-9f1c-de738cc5102b",
+            "Value": {
+                "id": "d99bb424-5d61-4555-9982-88bec186637a",
+                "resourcePath": "scripts\\scr_move_contact\\scr_move_contact.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "0f5226a9-538d-4fc6-ac34-bbbff436c05e",
             "Value": {
                 "id": "efea8671-1d31-48aa-ad9b-3fc6dbb5a849",
@@ -92,6 +100,14 @@
                 "id": "b8c14124-037b-4aa2-82f6-c8c599abd715",
                 "resourcePath": "scripts\\scr_move\\scr_move.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "267c0aef-03ef-4cde-9a22-953689216d9c",
+            "Value": {
+                "id": "9208d2d4-56a5-48c0-a44b-2232e9415169",
+                "resourcePath": "views\\267c0aef-03ef-4cde-9a22-953689216d9c.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -180,6 +196,14 @@
                 "id": "89621955-f1d1-41b3-a1af-e035c44cd402",
                 "resourcePath": "scripts\\scr_cameraSetCenter\\scr_cameraSetCenter.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "64bf2e73-7152-46d2-8a0a-f1993b529762",
+            "Value": {
+                "id": "586ef293-b00a-4b4a-948a-8f91827aa8e8",
+                "resourcePath": "sprites\\spr_chess_bgr\\spr_chess_bgr.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -455,6 +479,14 @@
             }
         },
         {
+            "Key": "e043b48d-e711-4309-839e-9d2804c83cae",
+            "Value": {
+                "id": "d7fb5d3d-c9c2-45a6-915b-bada8b1477ea",
+                "resourcePath": "rooms\\rm_test\\rm_test.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "e42bf5cc-3f46-4d67-a6d0-a4885a11ac3f",
             "Value": {
                 "id": "3040f64f-1223-4991-bfa3-081ced285466",
@@ -522,6 +554,7 @@
         "0c5988ab-1d80-44b5-bd45-4df25a32f051",
         "6539e714-1502-4225-98e9-20b98611ac90",
         "1dd22e1a-1c6f-4fde-b4ff-2d0a9af71778",
+        "0e0ed920-0561-4292-9f1c-de738cc5102b",
         "326243ab-3c90-47ee-902b-8945e3ca86d4",
         "97af87d9-c936-445a-86cf-a99c0c346349",
         "ef9406d6-9aa6-4a01-baa6-284bb1c2f50c",

@@ -6,6 +6,11 @@ sp_move_max = 40
 sp_move_min = 1
 sp_move = 0
 sp_ratio = 0.1
+
 //относительно окна
 mouse_win_x_pre = window_mouse_get_x()
 mouse_win_y_pre = window_mouse_get_y()
+
+// относительно комнаты
+mouse_x_pre = mouse_x
+mouse_y_pre = mouse_y

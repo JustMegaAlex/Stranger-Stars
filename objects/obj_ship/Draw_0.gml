@@ -10,6 +10,7 @@ draw_self();
 
 //draw_circle_color(x, y, glide_distance, c_yellow, c_yellow, true)
 
+/*
 var size = ds_grid_height(gridTraject);
 for(var i=0; i<size-1; i++)
 {
