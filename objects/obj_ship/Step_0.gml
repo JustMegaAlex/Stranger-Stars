@@ -4,13 +4,17 @@
 //input
 mouse_left = mouse_check_button_pressed(mb_left)
 mouse_right = mouse_check_button_pressed(mb_right)
+key_aim = mouse_left && keyboard_check(vk_control)
 key_stay = keyboard_check_pressed(ord("S"))
+
+// если целимся, то не управляем кораблем
+if key_aim
+	mouse_left = false
 
 if mouse_left
 	scr_set_fly_target(mouse_x, mouse_y)
 
-//if mouse_right 
-//	image_angle = point_direction(x,y,mouse_x,mouse_y)
+
 
 if key_stay {
 	navigate_phase = Navigation.stay
@@ -149,21 +153,18 @@ else
     }
 }
 
-//scr_cameraSetCenter(view_camera[0],x,y);
 
-///////////////
-/*
-if(mouse_check_button_pressed(mb_middle))
-{
-    viewOnShip = false;
-    mouseRelX = window_mouse_get_x();
-    mouseRelY = window_mouse_get_y();
-    viewRelX = view_xview[0];
-    viewRelY = view_yview[0];
+// прицеливание
+if key_aim {
+	obj_aim.x = mouse_x
+	obj_aim.y = mouse_y
+	obj_aim.visible = true
 }
-view_hspeed[0] = 0;
-view_vspeed[0] = 0;
 
-
-mouseXPre = mouse_x;
-mouseYPre = mouse_y;
+if !(reloading - time_to_reload) {
+	reloading++ 
+}
+else {
+	if obj_aim.visible
+		scr_shoot()
+}
