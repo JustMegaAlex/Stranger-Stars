@@ -19,7 +19,4 @@ if point_distance(x, y, target_x, target_y) < sp_max {
 	navigate_phase = Navigation.stay
 }
 
-
-if(!obj_sys.tacticalPauseActivated) {
-	scr_navigate()
-}
+scr_navigate()

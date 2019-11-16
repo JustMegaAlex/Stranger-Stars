@@ -14,7 +14,9 @@
         "97af87d9-c936-445a-86cf-a99c0c346349",
         "ef9406d6-9aa6-4a01-baa6-284bb1c2f50c",
         "fc1ace8e-aa13-491d-ba33-afcd4424e71b",
-        "ab771178-5b6f-45fd-a090-207c719dcf94"
+        "ab771178-5b6f-45fd-a090-207c719dcf94",
+        "4cf51660-0d8f-4e15-be43-86bab5bbcfbe",
+        "01465954-4576-40a6-b190-203428bc6ae1"
     ],
     "filterType": "GMScript",
     "folderName": "Ship",

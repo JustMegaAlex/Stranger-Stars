@@ -16,3 +16,5 @@ _angle = 3;
 trajectParNumber = 4; //число параметров траектории
 gridTraject = ds_grid_create(trajectParNumber,0);
 endOfTraject = false;
+
+scr_step_code = scr_ship_step_code

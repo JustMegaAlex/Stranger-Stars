@@ -44,3 +44,6 @@ part_type_life(partJet,0.35*room_speed,0.25*room_speed);
 part_type_sprite(partJet,spr_partJet,true,true,false);
 partSpawnTime = 2;
 alarm[0] = partSpawnTime;
+
+//step code
+scr_step_code = scr_stub
