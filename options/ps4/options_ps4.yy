@@ -28,10 +28,10 @@
     "option_ps4_shareoverlay_image": "${base_options_dir}\\ps4\\sce_sys\\shareoverlayimage.png",
     "option_ps4_shareparam": null,
     "option_ps4_shareparam_file": "${options_dir}\\ps4\\sce_sys\\shareparam.json",
-    "option_ps4_splash_screen": "${base_options_dir}\\ps4\\sce_sys\\pic1.png",
+    "option_ps4_splash_screen": "${options_dir}\\ps4\\sce_sys\\pic1.png",
     "option_ps4_texture_page": "2048x2048",
     "option_ps4_trophy00trp_file": "${options_dir}\\ps4\\sce_sys\\trophy\\trophy00.trp",
-    "option_ps4_trophy_screen": "${base_options_dir}\\ps4\\sce_sys\\pic0.png",
+    "option_ps4_trophy_screen": "${options_dir}\\ps4\\sce_sys\\pic0.png",
     "option_ps4_trophyedit": "0",
     "option_ps4_version": {
         "build": 0,

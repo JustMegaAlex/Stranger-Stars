@@ -15,8 +15,8 @@ if aster {
 	var size = ( aster.sprite_height + sprite_width) * 0.5
 	var gain = ( size - abs(displacement)) / size
 	hull_durability -= aster.damage_from_contact * gain * sp
-	if !hull_durability
-		scr_destroy()
+	//if !hull_durability
+	//	scr_destroy()
 	
 	//вылезаем из метеорита
 	var dir_out = point_direction(aster.x, aster.y, x, y)

@@ -168,3 +168,6 @@ else {
 	if obj_aim.visible
 		scr_shoot()
 }
+
+if !hull_durability
+	scr_destroy()

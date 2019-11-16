@@ -32,7 +32,7 @@
     "option_windowsuap_splash_background_colour": {
         "Value": 4278190080
     },
-    "option_windowsuap_splash_png": "${base_options_dir}\\windowsuap\\splash\\SplashScreen.scale-100.png",
+    "option_windowsuap_splash_png": "${options_dir}\\windowsuap\\splash\\SplashScreen.scale-100.png",
     "option_windowsuap_start_fullscreen": false,
     "option_windowsuap_store_logo": "${base_options_dir}\\windowsuap\\logos\\StoreLogo.scale-100.png",
     "option_windowsuap_target_platform_min_version": "10.0.14393.0",
