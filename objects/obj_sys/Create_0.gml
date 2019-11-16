@@ -1,11 +1,29 @@
-/// @description Insert description here
-// You can write your code in this editor
-///ini
+
+
+//////////init gameplay
+
+// active pause
 active_pause_activated = false;
+
 //camera
 viewPortRatio = 2;
-view_set_wport(view_camera[0],camera_get_view_width(view_camera[0])*viewPortRatio);
-view_set_hport(view_camera[0],camera_get_view_height(view_camera[0])*viewPortRatio);
+var w, h
+w = camera_get_view_width(view_camera[0])*viewPortRatio
+h = camera_get_view_height(view_camera[0])*viewPortRatio
+view_set_wport(view_camera[0], w)
+view_set_hport(view_camera[0], h)
+//window_set_size(w, h)
+
+
+// if game is first time launched 
+// show tips in a half a second
+show_tips = false
+show_tips_scale = 2
+show_tips_x = (view_get_wport(view_camera[0]) - sprite_get_width(spr_control_tips) * show_tips_scale) + 50// * 0.5
+show_tips_y = (view_get_hport(view_camera[0]) - sprite_get_height(spr_control_tips) * show_tips_scale) - 40// * 0.5
+//show_tips_x = (window_get_width() - sprite_get_width(spr_control_tips) * show_tips_scale) * 0.5
+//show_tips_y = (window_get_height() - sprite_get_height(spr_control_tips) * show_tips_scale) * 0.5
+alarm[0] = room_speed * 0.5
 
 //ini of debug scripts' vars
 scr_debugINI();

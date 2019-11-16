@@ -1,8 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-mouse_right_pr = mouse_check_button_pressed(mb_right)
-mouse_right = mouse_check_button(mb_right)
+mouse_middle_pr = mouse_check_button_pressed(mb_middle)
+mouse_middle = mouse_check_button(mb_middle)
 key_c = keyboard_check_pressed(ord("C"))
 
 if locked_on_ship && instance_exists(obj_ship) {
@@ -21,7 +21,7 @@ if locked_on_ship && instance_exists(obj_ship) {
 	
 	scr_cameraSetCenter(view_camera[0], x, y)
 	
-	if mouse_right_pr {
+	if mouse_middle_pr {
 		locked_on_ship = false
 		mouse_x_pre = mouse_x
 		mouse_y_pre = mouse_y
@@ -29,11 +29,11 @@ if locked_on_ship && instance_exists(obj_ship) {
 }
 else {
 	//ползаем по карте
-	if mouse_right_pr {
+	if mouse_middle_pr {
 		mouse_x_pre = mouse_x
 		mouse_y_pre = mouse_y
 	}
-	if mouse_right {
+	if mouse_middle {
 		//смещение при  смещении курсора мыши
 		x += mouse_x_pre - mouse_x
 		y += mouse_y_pre - mouse_y

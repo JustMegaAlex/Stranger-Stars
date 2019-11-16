@@ -6,13 +6,13 @@
 
 //input
 mouse_left = mouse_check_button_pressed(mb_left)
-mouse_right = mouse_check_button_pressed(mb_right)
-key_aim = mouse_left && keyboard_check(vk_control)
+key_aim = mouse_check_button_pressed(mb_right)
+//key_aim = mouse_left && keyboard_check(vk_control)
 key_stay = keyboard_check_pressed(ord("S"))
 
 // если целимся, то не управляем кораблем
-if key_aim
-	mouse_left = false
+//if key_aim
+//	mouse_left = false
 
 
 if mouse_left
