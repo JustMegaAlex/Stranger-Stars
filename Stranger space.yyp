@@ -615,6 +615,14 @@
             }
         },
         {
+            "Key": "f8fecd5d-ceb2-409c-8b9e-4e1aad020a19",
+            "Value": {
+                "id": "3c795694-0851-483a-8a63-d159e7784404",
+                "resourcePath": "objects\\obj_ship_controller\\obj_ship_controller.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "fc1ace8e-aa13-491d-ba33-afcd4424e71b",
             "Value": {
                 "id": "8308cc00-03af-4167-967a-e117e2d2ddbd",

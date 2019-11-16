@@ -1,3 +1,5 @@
+///implements ships' navigation
+
 switch navigate_phase
 	{
 		case Navigation.stay:

@@ -5,6 +5,8 @@ event_inherited()
 projectile_obj = obj_projectile
 time_to_reload = room_speed * 1.5
 reloading = 0
+
+instance_create_layer(0, 0, "Instances", obj_ship_controller)
 instance_create_layer(0, 0, "Instances", obj_aim)
 
 
