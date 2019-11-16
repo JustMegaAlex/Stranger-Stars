@@ -4,8 +4,8 @@
 scr_navigate()
 
 // прицеливание и стрельба
-if !(reloading - time_to_reload) {
-	reloading++ 
+if !(reloading+1 - weapon_full_charge) {
+	reloading = min(reloading + reload_sp, weapon_full_charge)
 }
 else {
 	if obj_aim.visible

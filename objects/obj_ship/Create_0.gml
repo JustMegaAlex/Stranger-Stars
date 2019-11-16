@@ -3,7 +3,8 @@ event_inherited()
 
 //weapon system
 projectile_obj = obj_projectile
-time_to_reload = room_speed * 1.5
+weapon_full_charge = 100
+reload_sp = 1.8
 reloading = 0
 
 instance_create_layer(0, 0, "Instances", obj_ship_controller)

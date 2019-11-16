@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-sp = 5
+sp = 8
 life_time = 300
 damage = 40
 

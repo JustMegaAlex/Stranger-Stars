@@ -47,3 +47,7 @@ alarm[0] = partSpawnTime;
 
 //step code
 scr_step_code = scr_stub
+
+//delay on destroying
+_destroy_alarm = 1
+destroy_delay_time = 10
