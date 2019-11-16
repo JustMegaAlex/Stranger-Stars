@@ -255,6 +255,14 @@
             }
         },
         {
+            "Key": "54cf60d0-085c-4fa5-8b3b-c3ca7cb0cbc7",
+            "Value": {
+                "id": "f3d4c295-c19a-4f8b-8f1f-1013b57f2121",
+                "resourcePath": "sprites\\spr_ship_explosion\\spr_ship_explosion.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "606de758-f799-4892-9c1b-58f0e6c40193",
             "Value": {
                 "id": "a57244ec-c0f6-4cc8-8360-bcd4fbad00ec",
@@ -564,6 +572,14 @@
                 "id": "d7fb5d3d-c9c2-45a6-915b-bada8b1477ea",
                 "resourcePath": "rooms\\rm_test\\rm_test.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "e3591cae-5536-41f1-898f-64c293988939",
+            "Value": {
+                "id": "0e458987-3f9a-4f3d-94bf-1847290b698f",
+                "resourcePath": "sprites\\spr_projectile_explosion\\spr_projectile_explosion.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

@@ -5,6 +5,7 @@ mouse_middle_pr = mouse_check_button_pressed(mb_middle)
 mouse_middle = mouse_check_button(mb_middle)
 key_c = keyboard_check_pressed(ord("C"))
 
+
 if locked_on_ship && instance_exists(obj_ship) {
 	var dist = point_distance(x, y, obj_ship.x, obj_ship.y)
 	if dist < sp_move_min {
@@ -49,5 +50,3 @@ else {
 	if key_c
 		locked_on_ship = true
 }
-
-//scr_cameraSetCenter(view_camera[0], x, y)

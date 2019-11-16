@@ -47,5 +47,28 @@ x_draw_stars = 0
 y_draw_stars = 0
 stars_parallax = 0.9
 
+//////////particle system
+part_sys = part_system_create_layer("Effects", false)
+
+//projectiles
+part_projectile_explosion = part_type_create()
+var life_time = sprite_get_number(spr_projectile_explosion) * 2
+part_type_life(part_projectile_explosion,
+					life_time,
+					life_time)
+part_type_sprite(part_projectile_explosion, 
+					spr_projectile_explosion, 
+					true, true, false)
+					
+part_ship_explosion = part_type_create()
+var life_time = sprite_get_number(spr_ship_explosion)
+part_type_life(part_ship_explosion,
+					life_time,
+					life_time)
+part_type_sprite(part_ship_explosion, 
+					spr_ship_explosion, 
+					true, true, false)
+
+
 //view
 instance_create_layer(0, 0, "Instances", obj_view)

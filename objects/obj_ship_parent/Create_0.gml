@@ -41,7 +41,7 @@ part_create_dist = 12
 psJet = part_system_create();
 partJet = part_type_create();
 part_type_life(partJet,0.35*room_speed,0.25*room_speed);
-part_type_sprite(partJet,spr_partJet,true,true,false);
+part_type_sprite(partJet, spr_partJet, true, true, false);
 partSpawnTime = 2;
 alarm[0] = partSpawnTime;
 
