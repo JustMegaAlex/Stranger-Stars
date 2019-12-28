@@ -1,16 +1,33 @@
-/// @description Insert description here
-// You can write your code in this editor
 
+//Enums
+enum Navigation {
+	stay,
+	get_on_course,
+	approach,
+	glide,
+	take_speed,
+	stop
+}
+
+enum Sp_level {	//ref to list_sp_levels
+	low,
+	moderate,
+	normal,
+	boost,
+	increase,
+	decrease
+}
 
 //////////ini general ship parameters
 sp_cruise = 2;
 sp = 0;
-sp_set = 0; //sp value to approach
-sp_level_low = 0.25
-sp_level_moderate = 0.5
-sp_level_normal = 1
-sp_level_boost = 2
-sp_level_set = sp_level_normal
+sp_to = 0; //sp value to approach
+
+//list of sp levels
+list_sp_levels = ds_list_create()
+scr_fill_list_from_array(list_sp_levels, [0.25, 0.5, 1, 2])
+
+sp_level_set = Sp_level.normal
 sp_glide = 0;
 sp_glide_max = 0.2
 glide_distance = 30
@@ -30,19 +47,9 @@ target_x = x;
 target_y = y;
 target_dist = 0
 
-//navigation system
-enum Navigation{
-	stay,
-	get_on_course,
-	get_on_course_deccelerate,
-	approach,
-	glide,
-	control_lost,
-	accelerate,
-	decelerate
-}
 navigate_phase = Navigation.stay
-set_navigation_true = false
+command_set_navigation = false
+command_slow_down = false
 
 ///particles
 part_create_dist = 12
