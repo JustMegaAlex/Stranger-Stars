@@ -3,14 +3,19 @@
 
 
 //////////ini general ship parameters
-sp_max = 2.8;
+sp_cruise = 2;
 sp = 0;
-sp_set = 0; //к какой скорости стремиться
+sp_set = 0; //sp value to approach
+sp_level_low = 0.25
+sp_level_moderate = 0.5
+sp_level_normal = 1
+sp_level_boost = 2
+sp_level_set = sp_level_normal
 sp_glide = 0;
 sp_glide_max = 0.2
 glide_distance = 30
 image_angle = 90
-rotation_sp = 90/room_speed;
+rotation_sp = 145/room_speed;
 accel = 0.01;
 rel_target_dir = 0;	//относительное направление к точке следования
 rotationDir = 0;	//куда вращаться чтобы выйти на точку следования
@@ -23,6 +28,7 @@ direction = 0
 
 target_x = x;
 target_y = y;
+target_dist = 0
 
 //navigation system
 enum Navigation{
@@ -31,7 +37,9 @@ enum Navigation{
 	get_on_course_deccelerate,
 	approach,
 	glide,
-	control_lost
+	control_lost,
+	accelerate,
+	decelerate
 }
 navigate_phase = Navigation.stay
 set_navigation_true = false
