@@ -15,4 +15,4 @@ switch argument0 {
 		sp_level_set = argument0
 }
 
-return sp_cruise*list_sp_levels[sp_level_set]
+return sp_cruise*list_sp_levels[| sp_level_set]
