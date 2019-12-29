@@ -52,7 +52,7 @@ command_set_navigation = false
 command_slow_down = false
 
 ///particles
-part_create_dist = 12
+part_create_dist = 0
 psJet = part_system_create();
 partJet = part_type_create();
 part_type_life(partJet,0.35*room_speed,0.25*room_speed);
