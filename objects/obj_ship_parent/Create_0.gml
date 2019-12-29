@@ -35,12 +35,8 @@ image_angle = 90
 rotation_sp = 145/room_speed;
 accel = 0.05;
 rel_target_dir = 0;	//относительное направление к точке следования
-rotationDir = 0;	//куда вращаться чтобы выйти на точку следования
 hull_full_durability = 100 //прочность корпуса начальная
 hull_durability = hull_full_durability	//=//= текущая
-angle_drifting = rotation_sp * 0.5 //дрифт ориентации при потере управления
-control_lost_time_max = 1.7 * room_speed
-control_lost_time = 0
 direction = 0
 
 target_x = x;
@@ -48,11 +44,8 @@ target_y = y;
 target_dist = 0
 
 navigate_phase = Navigation.stay
-command_set_navigation = false
-command_slow_down = false
 
 ///particles
-part_create_dist = 0
 psJet = part_system_create();
 partJet = part_type_create();
 part_type_life(partJet,0.35*room_speed,0.25*room_speed);
