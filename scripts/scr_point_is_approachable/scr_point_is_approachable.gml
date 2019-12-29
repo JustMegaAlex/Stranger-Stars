@@ -11,6 +11,3 @@ if point_distance(center_x, center_y, argument0, argument1) > radius
 	return true
 	
 return false
-
-
-
