@@ -13,6 +13,8 @@ switch navigate_phase
 		else if target_dist {
 			navigate_phase = Navigation.glide
 		}
+		
+		break
 	}
 		
 	case Navigation.take_speed:
