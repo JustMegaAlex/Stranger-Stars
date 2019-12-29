@@ -9,3 +9,6 @@ key_stay = keyboard_check_pressed(ord("S"))
 if mouse_left
 	with obj_ship
 		scr_set_fly_target(mouse_x, mouse_y)
+		
+if key_stay
+	obj_ship.navigate_phase = Navigation.stop

@@ -24,7 +24,7 @@ switch navigate_phase
 		scr_move_contact(sp, image_angle)
 			
 		if abs(sp - sp_to) < accel {
-			navigate_phase = Navigation.approach	
+			navigate_phase = Navigation.approach
 		}
 			
 		break
@@ -36,8 +36,10 @@ switch navigate_phase
 		
 		scr_move_contact(sp, image_angle)
 			
-		if sp < accel
+		if sp < accel {
+			scr_set_fly_target(x, y)
 			navigate_phase = Navigation.stay
+		}
 			
 		break
 	}
