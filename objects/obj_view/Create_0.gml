@@ -5,7 +5,7 @@ locked_on_ship = true
 sp_move_max = 40
 sp_move_min = 1
 sp_move = 0
-sp_ratio = 0.1
+sp_ratio = 0.4
 
 // относительно комнаты
 mouse_x_pre = mouse_x
