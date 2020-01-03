@@ -6,6 +6,8 @@ switch navigate_phase
 {
 	case Navigation.stay:
 	{
+		scr_move_contact(sp, image_angle)
+		
 		if target_dist > glide_distance {
 			sp_to = scr_set_sp_to(Sp_level.normal)
 			navigate_phase = Navigation.take_speed
