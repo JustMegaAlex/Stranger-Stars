@@ -47,8 +47,10 @@ x_draw_stars = 0
 y_draw_stars = 0
 stars_parallax = 0.9
 
-//////////particle system
-part_sys = part_system_create_layer("Effects", false)
+//////////particle systems
+part_sys_effects = part_system_create_layer("Effects", false)
+part_sys_effects_deep = part_system_create_layer("Effects_deep", false)
+
 
 //projectiles
 part_projectile_explosion = part_type_create()

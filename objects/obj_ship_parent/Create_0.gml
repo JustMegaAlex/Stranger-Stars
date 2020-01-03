@@ -27,6 +27,7 @@ sp_to = 0; //sp value to approach
 list_sp_levels = ds_list_create()
 scr_fill_list_from_array(list_sp_levels, [0.25, 0.5, 1, 2])
 
+navigation_cruise_mode = false
 sp_level_set = Sp_level.normal
 sp_glide = 0;
 sp_glide_max = 0.2
@@ -46,10 +47,10 @@ target_dist = 0
 navigate_phase = Navigation.stay
 
 ///particles
-psJet = part_system_create();
-partJet = part_type_create();
-part_type_life(partJet,0.35*room_speed,0.25*room_speed);
-part_type_sprite(partJet, spr_partJet, true, true, false);
+ps_jet = obj_sys.part_sys_effects_deep;
+part_jet = part_type_create();
+part_type_life(part_jet,0.35*room_speed,0.25*room_speed);
+part_type_sprite(part_jet, spr_partJet, true, true, false);
 partSpawnTime = 2;
 alarm[0] = partSpawnTime;
 

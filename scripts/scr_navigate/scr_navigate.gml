@@ -76,7 +76,7 @@ switch navigate_phase
 			navigate_phase = Navigation.get_on_course
 			
 		scr_move_contact(sp, image_angle)
-			
+		
 		break
 	}
 		

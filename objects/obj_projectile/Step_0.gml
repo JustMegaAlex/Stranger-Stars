@@ -10,7 +10,7 @@ if got_him && !(got_him.object_index == obj_ship) {
 	var xx, yy
 	xx = x + lengthdir_x(sprite_width*1.2, image_angle)
 	yy = y + lengthdir_y(sprite_width*1.2, image_angle)
-	part_particles_create(obj_sys.part_sys,
+	part_particles_create(obj_sys.part_sys_effects,
 							xx, yy,
 							obj_sys.part_projectile_explosion, 1)
 	instance_destroy()
