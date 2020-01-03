@@ -15,4 +15,9 @@ switch argument0 {
 		sp_level_set = argument0
 }
 
-return sp_cruise*list_sp_levels[| sp_level_set]
+var sp_computed = sp_cruise*list_sp_levels[| sp_level_set]
+
+// compute break_down_dist
+break_down_dist = sp_computed*sp_computed*0.5/accel
+
+return sp_computed

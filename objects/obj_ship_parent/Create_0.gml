@@ -27,7 +27,8 @@ sp_to = 0; //sp value to approach
 list_sp_levels = ds_list_create()
 scr_fill_list_from_array(list_sp_levels, [0.25, 0.5, 1, 2])
 
-navigation_cruise_mode = false
+navigation_cruise_mode = false //true -> not stoping after reaching target point
+break_down_dist = 0	// dist to stop at the target point
 sp_level_set = Sp_level.normal
 sp_glide = 0;
 sp_glide_max = 0.2

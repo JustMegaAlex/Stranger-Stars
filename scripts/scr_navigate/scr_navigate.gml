@@ -69,13 +69,11 @@ switch navigate_phase
 		
 	case Navigation.approach:
 	{
-		target_dir = scr_get_dir_to_point(target_x, target_y)
-		rel_target_dir = angle_difference(target_dir, image_angle)
-			
-		if abs(rel_target_dir)
-			navigate_phase = Navigation.get_on_course
-			
 		scr_move_contact(sp, image_angle)
+		
+		if !navigation_cruise_mode
+			if target_dist < break_down_dist
+				navigate_phase = Navigation.stop
 		
 		break
 	}
