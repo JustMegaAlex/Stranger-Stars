@@ -24,7 +24,7 @@ switch navigate_phase
 		scr_move_contact(sp, image_angle)
 			
 		if abs(sp - sp_to) < accel {
-			navigate_phase = Navigation.approach
+			navigate_phase = Navigation.get_on_course
 		}
 			
 		break
