@@ -20,11 +20,8 @@ switch navigate_phase
 				navigate_phase = Navigation.glide
 			}
 		}
-		else {
-			if target_dist > rot_radius
-				navigate_phase = Navigation.get_on_course
-		}
-		
+		else
+			navigate_phase = Navigation.get_on_course		
 	}
 	
 	case Navigation.take_speed: {
@@ -57,11 +54,12 @@ switch navigate_phase
 		
 		target_dir = scr_get_dir_to_point(target_x, target_y)
 		rel_target_dir = angle_difference(target_dir, image_angle)
-		image_angle += rotation_sp * sign(rel_target_dir)
+		//image_angle += rotation_sp * sign(rel_target_dir)
 		
 		if !scr_point_is_approachable(target_x, target_y) {
-			sp_to = scr_set_sp_to(Sp_level.decrease)
-			navigate_phase = Navigation.take_speed
+			//sp_to = scr_set_sp_to(Sp_level.decrease)
+			//navigate_phase = Navigation.take_speed
+			image_angle += rotation_sp * sign(rel_target_dir)
 			break
 		}
 
