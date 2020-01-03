@@ -4,23 +4,30 @@ target_dist = point_distance(x, y, target_x, target_y)
 
 switch navigate_phase
 {
-	case Navigation.stay:
-	{
-		scr_move_contact(sp, image_angle)
-		
-		if target_dist > glide_distance {
-			sp_to = scr_set_sp_to(Sp_level.normal)
-			navigate_phase = Navigation.take_speed
-		}
-		else if target_dist {
-			navigate_phase = Navigation.glide
-		}
-		
+	case Navigation.stay: {
 		break
 	}
+	
+	case Navigation.control: {
+		scr_move_contact(sp, image_angle)
 		
-	case Navigation.take_speed:
-	{
+		if !sp {
+			if target_dist > glide_distance {
+				sp_to = scr_set_sp_to(Sp_level.normal)
+				navigate_phase = Navigation.take_speed
+			}
+			else if target_dist {
+				navigate_phase = Navigation.glide
+			}
+		}
+		else {
+			if target_dist > rot_radius
+				navigate_phase = Navigation.get_on_course
+		}
+		
+	}
+	
+	case Navigation.take_speed: {
 		sp = scr_approach(sp, sp_to, accel)
 		
 		scr_move_contact(sp, image_angle)
@@ -32,8 +39,7 @@ switch navigate_phase
 		break
 	}
 		
-	case Navigation.stop:
-	{
+	case Navigation.stop: {
 		sp = scr_approach(sp, 0, accel)
 		
 		scr_move_contact(sp, image_angle)
@@ -46,8 +52,7 @@ switch navigate_phase
 		break
 	}
 		
-	case Navigation.get_on_course:
-	{
+	case Navigation.get_on_course: {
 		scr_move_contact(sp, image_angle)
 		
 		target_dir = scr_get_dir_to_point(target_x, target_y)
@@ -69,8 +74,7 @@ switch navigate_phase
 		break	
 	}
 		
-	case Navigation.approach:
-	{
+	case Navigation.approach: {
 		scr_move_contact(sp, image_angle)
 		
 		if !navigation_cruise_mode
@@ -80,8 +84,7 @@ switch navigate_phase
 		break
 	}
 		
-	case Navigation.glide:
-	{
+	case Navigation.glide: {
 		navigate_phase = Navigation.stay
 	}
 }

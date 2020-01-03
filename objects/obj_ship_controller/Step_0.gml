@@ -10,7 +10,7 @@ key_cruise = keyboard_check_pressed(ord("A"))
 if mouse_left
 	with obj_ship {
 		scr_set_fly_target(mouse_x, mouse_y)
-		navigate_phase = Navigation.stay
+		navigate_phase = Navigation.control
 	}
 		
 if key_stay

@@ -17,7 +17,8 @@ switch argument0 {
 
 var sp_computed = sp_cruise*list_sp_levels[| sp_level_set]
 
-// compute break_down_dist
+// recompute 
 break_down_dist = sp_computed*sp_computed*0.5/accel
+rot_radius = sp_computed/degtorad(rotation_sp)
 
 return sp_computed
