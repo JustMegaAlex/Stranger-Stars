@@ -21,7 +21,7 @@ switch navigate_phase
 			}
 		}
 		else
-			navigate_phase = Navigation.get_on_course		
+			navigate_phase = Navigation.get_on_course_pre
 	}
 	
 	case Navigation.take_speed: {
@@ -30,7 +30,7 @@ switch navigate_phase
 		scr_move_contact(sp, image_angle)
 			
 		if abs(sp - sp_to) < accel {
-			navigate_phase = Navigation.get_on_course
+			navigate_phase = Navigation.get_on_course_pre
 		}
 			
 		break
@@ -48,28 +48,32 @@ switch navigate_phase
 			
 		break
 	}
+	
+	case Navigation.get_on_course_pre: {
+		scr_move_contact(sp, image_angle)
+		
+		target_dir = scr_get_dir_to_point(target_x, target_y)
+		rel_target_dir = angle_difference(target_dir, image_angle)
+		
+		if scr_point_is_approachable(target_x, target_y) {
+			navigate_phase = Navigation.get_on_course
+		}
+	}
 		
 	case Navigation.get_on_course: {
 		scr_move_contact(sp, image_angle)
 		
 		target_dir = scr_get_dir_to_point(target_x, target_y)
 		rel_target_dir = angle_difference(target_dir, image_angle)
-		//image_angle += rotation_sp * sign(rel_target_dir)
 		
-		if !scr_point_is_approachable(target_x, target_y) {
-			//sp_to = scr_set_sp_to(Sp_level.decrease)
-			//navigate_phase = Navigation.take_speed
-			image_angle += rotation_sp * sign(rel_target_dir)
-			break
-		}
-
+		image_angle += rotation_sp * sign(rel_target_dir)
+			
 		if abs(rel_target_dir) < rotation_sp {
 			image_angle = target_dir
 			sp_to = scr_set_sp_to(Sp_level.normal)
 			navigate_phase = Navigation.approach
 		}
-			
-		break	
+		break
 	}
 		
 	case Navigation.approach: {

@@ -3,6 +3,7 @@
 enum Navigation {
 	stay,
 	control,
+	get_on_course_pre,
 	get_on_course,
 	approach,
 	glide,
