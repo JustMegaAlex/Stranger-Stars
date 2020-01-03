@@ -18,7 +18,7 @@ switch navigate_phase
 	}
 		
 	case Navigation.take_speed:
-	{			
+	{
 		sp = scr_approach(sp, sp_to, accel)
 		
 		scr_move_contact(sp, image_angle)
