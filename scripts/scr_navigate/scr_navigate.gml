@@ -11,17 +11,15 @@ switch navigate_phase
 	case Navigation.control: {
 		scr_move_contact(sp, image_angle)
 		
-		if !sp {
-			if target_dist > glide_distance {
-				sp_to = scr_set_sp_to(Sp_level.normal)
-				navigate_phase = Navigation.take_speed
-			}
-			else if target_dist {
-				navigate_phase = Navigation.glide
-			}
+		if target_dist > glide_distance {
+			sp_to = scr_set_sp_to(Sp_level.normal)
+			navigate_phase = Navigation.take_speed
 		}
-		else
-			navigate_phase = Navigation.get_on_course_pre
+		else if target_dist {
+			navigate_phase = Navigation.glide
+		}
+		//else
+		//	navigate_phase = Navigation.get_on_course_pre
 	}
 	
 	case Navigation.take_speed: {
@@ -58,6 +56,8 @@ switch navigate_phase
 		if scr_point_is_approachable(target_x, target_y) {
 			navigate_phase = Navigation.get_on_course
 		}
+		
+		break
 	}
 		
 	case Navigation.get_on_course: {
