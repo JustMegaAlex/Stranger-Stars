@@ -8,9 +8,3 @@ if show_tips
 
 ///debug scripts
 scr_debug_scripts_update()
-
-/*
-scr_debug_showVar("tip_x", show_tips_x)
-scr_debug_showVar("window_w", window_get_width())
-scr_debug_showVar("mouse_gui_x", device_mouse_x_to_gui(0))
-scr_debug_showVar("window_mouse_x", window_mouse_get_x())

@@ -1,5 +1,3 @@
-
-
 //////////init gameplay
 
 // active pause
@@ -21,8 +19,6 @@ show_tips = false
 show_tips_scale = 2
 show_tips_x = (view_get_wport(view_camera[0]) - sprite_get_width(spr_control_tips) * show_tips_scale) + 50// * 0.5
 show_tips_y = (view_get_hport(view_camera[0]) - sprite_get_height(spr_control_tips) * show_tips_scale) - 40// * 0.5
-//show_tips_x = (window_get_width() - sprite_get_width(spr_control_tips) * show_tips_scale) * 0.5
-//show_tips_y = (window_get_height() - sprite_get_height(spr_control_tips) * show_tips_scale) * 0.5
 alarm[0] = room_speed * 0.5
 
 //ini of debug scripts' vars
