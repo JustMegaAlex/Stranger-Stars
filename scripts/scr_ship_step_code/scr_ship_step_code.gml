@@ -6,9 +6,10 @@ key_stay = keyboard_check_pressed(ord("S"))
 key_cruise = keyboard_check_pressed(ord("A"))
 
 
-if mouse_left
+if mouse_left {
 	scr_set_fly_target(mouse_x, mouse_y)
 	navigate_phase = Navigation.control
+}
 	
 if mouse_right {
 	dir_target_x = mouse_x
