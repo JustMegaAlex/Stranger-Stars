@@ -58,7 +58,7 @@ dir_target_x = x
 dir_target_y = y
 target_dist = 0
 
-navigate_phase = Navigation.stay
+scr_navigation_set(Navigation.stay)
 
 ///particles
 ps_jet = obj_sys.part_sys_effects_deep
