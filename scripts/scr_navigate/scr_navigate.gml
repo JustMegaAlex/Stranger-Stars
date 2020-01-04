@@ -18,8 +18,6 @@ switch navigate_phase
 		else if target_dist {
 			navigate_phase = Navigation.glide
 		}
-		//else
-		//	navigate_phase = Navigation.get_on_course_pre
 	}
 	
 	case Navigation.take_speed: {
@@ -87,6 +85,7 @@ switch navigate_phase
 	}
 		
 	case Navigation.glide: {
+		scr_move_contact(sp, image_angle)
 		navigate_phase = Navigation.stay
 	}
 }
