@@ -1,4 +1,4 @@
-///implements ships' navidation
+///implements ships' navigation
 
 target_dist = point_distance(x, y, target_x, target_y)
 
