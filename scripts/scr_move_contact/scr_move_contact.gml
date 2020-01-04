@@ -14,10 +14,7 @@ if aster {
 	
 	// go to stun state
 	if sp > stun_sp_tolerance {
-		dir = point_direction(aster.x, aster.y, x, y)
-		navigate_phase = Navigation.stun
-		stun_time = stun_set_time
-		sp *= stun_bounce
+		scr_navigation_set(Navigation.stun, aster)
 		return
 	}
 	
