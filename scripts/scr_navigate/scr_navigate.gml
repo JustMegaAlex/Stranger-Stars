@@ -87,5 +87,14 @@ switch navigate_phase
 	case Navigation.glide: {
 		scr_move_contact(sp, image_angle)
 		navigate_phase = Navigation.stay
+		break
+	}
+	
+	case Navigation.stun: {
+		stun_time--
+		scr_move_contact(sp, dir)
+		if !stun_time {
+			navigate_phase = Navigation.stay
+		}
 	}
 }

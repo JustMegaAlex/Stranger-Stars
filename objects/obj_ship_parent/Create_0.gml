@@ -8,7 +8,8 @@ enum Navigation {
 	approach,
 	glide,
 	take_speed,
-	stop
+	stop,
+	stun
 }
 
 enum Sp_level {	//ref to list_sp_levels
@@ -43,6 +44,13 @@ rel_target_dir = 0;	//относительное направление к то�
 hull_full_durability = 100 //прочность корпуса начальная
 hull_durability = hull_full_durability	//=//= текущая
 direction = 0
+
+//stun state
+stun_set_time = 30
+stun_time = 0
+dir = 0
+stun_bounce = 0.3
+stun_sp_tolerance = sp_cruise*stun_bounce
 
 target_x = x;
 target_y = y;
