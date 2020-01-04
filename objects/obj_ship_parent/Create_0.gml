@@ -54,6 +54,8 @@ stun_sp_tolerance = sp_cruise*stun_bounce
 
 target_x = x
 target_y = y
+dir_target_x = x
+dir_target_y = y
 target_dist = 0
 
 navigate_phase = Navigation.stay

@@ -5,7 +5,7 @@ target_dist = point_distance(x, y, target_x, target_y)
 switch navigate_phase
 {
 	case Navigation.stay: {
-		scr_set_dir_point(target_x, target_y)
+		scr_set_dir_point(dir_target_x, dir_target_y)
 		break
 	}
 	
@@ -19,7 +19,7 @@ switch navigate_phase
 		else if target_dist {
 			navigate_phase = Navigation.glide
 		}
-		break
+		
 	}
 	
 	case Navigation.take_speed: {
