@@ -5,12 +5,11 @@ active_pause_activated = false;
 
 //camera
 viewPortRatio = 2;
-var w, h
 w = camera_get_view_width(view_camera[0])*viewPortRatio
 h = camera_get_view_height(view_camera[0])*viewPortRatio
 view_set_wport(view_camera[0], w)
 view_set_hport(view_camera[0], h)
-//window_set_size(w, h)
+display_set_gui_size(window_get_width(), window_get_height())
 
 
 // if game is first time launched 
