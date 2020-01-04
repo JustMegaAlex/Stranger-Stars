@@ -5,6 +5,7 @@ target_dist = point_distance(x, y, target_x, target_y)
 switch navigate_phase
 {
 	case Navigation.stay: {
+		scr_set_dir_point(target_x, target_y)
 		break
 	}
 	
@@ -18,6 +19,7 @@ switch navigate_phase
 		else if target_dist {
 			navigate_phase = Navigation.glide
 		}
+		break
 	}
 	
 	case Navigation.take_speed: {
@@ -61,10 +63,7 @@ switch navigate_phase
 	case Navigation.get_on_course: {
 		scr_move_contact(sp, image_angle)
 		
-		target_dir = scr_get_dir_to_point(target_x, target_y)
-		rel_target_dir = angle_difference(target_dir, image_angle)
-		
-		image_angle += rotation_sp * sign(rel_target_dir)
+		scr_set_dir_point(target_x, target_y)
 			
 		if abs(rel_target_dir) < rotation_sp {
 			image_angle = target_dir
