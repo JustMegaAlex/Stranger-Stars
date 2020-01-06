@@ -9,8 +9,8 @@ key_cruise = keyboard_check_pressed(ord("A"))
 
 if  input{
 	
-	if obj_ui.interacting { //ui interaction
-		
+	if ui_interacting {
+
 	}
 	
 	else { // ship control
@@ -36,3 +36,6 @@ if  input{
 			obj_ship.navigation_cruise_mode = !obj_ship.navigation_cruise_mode
 	}
 }
+
+// ui 
+ui_interacting = noone

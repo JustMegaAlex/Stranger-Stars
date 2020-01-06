@@ -3,6 +3,9 @@
 // active pause
 active_pause_activated = false;
 
+// ui
+ui_interacting = noone	// is affected by ui elements
+
 //camera
 viewPortRatio = 2;
 w = camera_get_view_width(view_camera[0])*viewPortRatio
