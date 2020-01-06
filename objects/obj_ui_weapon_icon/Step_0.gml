@@ -1,12 +1,18 @@
 event_inherited()
 
 /// lighten if interact
-image_index = _default
-if interacting {
-	image_index = _interact_img
+if image_index != _checked_img {
+	image_index = _default
+
+	if interacting {
+		image_index = _interact_img
 	
-	// pressed
-	if obj_sys.mouse_left {
-		// press action code	
+		// just pressed
+		if obj_sys.mouse_left {
+			// press action code
+			with obj_ui_weapon_icon
+				image_index = _default
+			image_index = _checked_img
+		}
 	}
 }
