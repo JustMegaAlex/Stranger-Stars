@@ -8,8 +8,8 @@
     "VTile": false,
     "bbox_bottom": 799,
     "bbox_left": 0,
-    "bbox_right": 958,
-    "bbox_top": 158,
+    "bbox_right": 1099,
+    "bbox_top": 0,
     "bboxmode": 0,
     "colkind": 1,
     "coltolerance": 0,
@@ -84,10 +84,10 @@
             "mvc": "1.0",
             "SpriteId": "1ee515e7-b49c-4227-9bfd-0ce76d99af09",
             "blendMode": 0,
-            "isLocked": true,
+            "isLocked": false,
             "name": "bgr",
             "opacity": 100,
-            "visible": false
+            "visible": true
         }
     ],
     "origin": 0,

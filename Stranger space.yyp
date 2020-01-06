@@ -239,6 +239,14 @@
             }
         },
         {
+            "Key": "3b169197-433f-4083-95c0-43d4d5f98a14",
+            "Value": {
+                "id": "f4289244-d0a9-4a37-9cfd-82c0756d05e4",
+                "resourcePath": "sprites\\spr_ui_weapon_icon\\spr_ui_weapon_icon.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3b8875da-971b-41da-b20a-cd04cb3ef4f4",
             "Value": {
                 "id": "9c40ca3d-5887-4b0a-b89f-b7d6816bb472",
