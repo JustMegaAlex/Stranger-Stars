@@ -306,7 +306,7 @@
             "Key": "63c4fe10-c3d1-4f1d-915c-b890bec34655",
             "Value": {
                 "id": "eafeb4c7-dbfa-46d1-a3d3-dc97d468ac08",
-                "resourcePath": "objects\\obj_ui_button\\obj_ui_button.yy",
+                "resourcePath": "objects\\obj_ui_weapon_icon\\obj_ui_weapon_icon.yy",
                 "resourceType": "GMObject"
             }
         },

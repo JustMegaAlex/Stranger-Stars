@@ -9,7 +9,7 @@ key_cruise = keyboard_check_pressed(ord("A"))
 
 if  input{
 	
-	if collision_point(mouse_x, mouse_y, obj_ui, false, false) { //ui interaction
+	if obj_ui.interacting { //ui interaction
 		
 	}
 	
