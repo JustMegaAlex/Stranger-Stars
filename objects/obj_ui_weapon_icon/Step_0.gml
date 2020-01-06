@@ -1,7 +1,7 @@
 event_inherited()
 
 /// lighten if interact
-if image_index != _checked_img {
+if image_index != _checked_img { // if already choosed
 	image_index = _default
 
 	if interacting {
@@ -15,4 +15,8 @@ if image_index != _checked_img {
 			image_index = _checked_img
 		}
 	}
+}
+else {
+	if interacting and obj_sys.mouse_left // cancel choosing
+		image_index = _interact_img
 }
