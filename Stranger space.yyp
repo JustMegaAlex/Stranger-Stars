@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "1ee515e7-b49c-4227-9bfd-0ce76d99af09",
+            "Value": {
+                "id": "0892d8e0-1222-4d58-b087-c6ec4b3ef826",
+                "resourcePath": "sprites\\spr_ui_blueprint\\spr_ui_blueprint.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "267c0aef-03ef-4cde-9a22-953689216d9c",
             "Value": {
                 "id": "9208d2d4-56a5-48c0-a44b-2232e9415169",
