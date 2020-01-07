@@ -7,7 +7,10 @@ if interacting {
 	image_index = _interact_img
 	
 	if obj_sys.mouse_left { // charge ratio up
-		scr_ui_control_(_weapon, _up)
+		scr_ui_control(_weapon, _up)
+	}
+	else if obj_sys.mouse_right { // charge ratio down
+		scr_ui_control(_weapon, _down)
 	}
 	
 }

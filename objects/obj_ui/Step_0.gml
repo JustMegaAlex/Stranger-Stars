@@ -6,3 +6,9 @@ interacting = collision_point(m_x, m_y, id, true, false)
 
 if interacting
 	obj_sys.ui_interacting = interacting
+	
+///Enums
+_weapon = 0
+
+_up = 0
+_down = 1
