@@ -12,7 +12,6 @@ _heat_img = 4
 x_st = 3
 param_len = 147 // charge bar and heat bar length
 param_heat = 0
-param_charge = 1
 
 // charge ratio icon obj
 instance_create_layer(x, y, layer, obj_ui_weapon_charge_ratio)
