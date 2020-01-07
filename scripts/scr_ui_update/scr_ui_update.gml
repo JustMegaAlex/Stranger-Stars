@@ -1,2 +1,3 @@
 
-event_perform_object(obj_ui, ev_user0, 0)
+with obj_ui
+	event_perform(ev_user0, 0)
