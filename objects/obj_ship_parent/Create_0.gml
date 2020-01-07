@@ -30,6 +30,7 @@ sp_to = 0 //sp value to approach
 list_sp_levels = ds_list_create()
 scr_fill_list_from_array(list_sp_levels, [0.25, 0.5, 1, 2])
 
+///////////////navigation
 navigation_cruise_mode = false //true -> not stoping after reaching target point
 break_down_dist = 0	// dist to stop at the target point
 rot_radius = 0		// radius of rotating trajectory
@@ -60,7 +61,7 @@ target_dist = 0
 
 scr_navigation_set(Navigation.stay)
 
-///particles
+/////////////////particles
 ps_jet = obj_sys.part_sys_effects_deep
 part_jet = part_type_create()
 part_type_life(part_jet, 0.35*room_speed, 0.25*room_speed)
@@ -68,9 +69,20 @@ part_type_sprite(part_jet, spr_partJet, true, true, false)
 partSpawnTime = 2
 alarm[0] = partSpawnTime
 
-//step code
+////////////////step code
 scr_step_code = scr_stub
 
-//delay on destroying
+/////delay on destroying
 _destroy_alarm = 1
 destroy_delay_time = 10
+
+/////////////////////stats
+stat_hull_max = 10
+stat_hull = stat_hull_max
+stat_shield_max = 5
+stat_shield = stat_shield_max
+stat_reactor_power = 5
+stat_weapon_charge_max = 600
+stat_weapon_charge = 0
+stat_shield_charge_max = 300
+stat_shield_charge = 0
