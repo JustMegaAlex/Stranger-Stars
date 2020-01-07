@@ -6,3 +6,5 @@ draw_sprite_part(sprite_index,
 				0, y_st, 
 				sprite_width, sprite_height, 
 				x, y + y_st)
+				
+scr_debug_showVar("charge_ratio", param_charge_ratio)

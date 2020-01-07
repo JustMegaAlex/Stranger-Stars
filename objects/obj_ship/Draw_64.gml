@@ -1,3 +1,2 @@
 				
-scr_debug_showVar("sp level",sp_level_set)
-scr_debug_showVar("navigation phase",navigate_phase)
+scr_debug_showVar("weapon_charge_ratio", stat_weapon_charge_ratio)
