@@ -90,3 +90,5 @@ stat_shield_charge_max = 300
 stat_shield_charge = 0
 stat_shield_charge_ratio_max = 5
 stat_shield_charge_ratio = 0
+
+scr_ui_update()
