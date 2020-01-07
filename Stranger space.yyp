@@ -719,6 +719,14 @@
             }
         },
         {
+            "Key": "eb7b478f-489c-4bc9-af09-b2d8a492dd30",
+            "Value": {
+                "id": "12bcdf41-908e-40a5-9f40-90b3af28afd6",
+                "resourcePath": "objects\\obj_ui_weapon_charge_ratio\\obj_ui_weapon_charge_ratio.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "ef9406d6-9aa6-4a01-baa6-284bb1c2f50c",
             "Value": {
                 "id": "b20d0104-7ada-46d1-95a1-8e7fc716bf5c",
