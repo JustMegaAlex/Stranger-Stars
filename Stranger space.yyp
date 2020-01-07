@@ -319,6 +319,14 @@
             }
         },
         {
+            "Key": "5cd16112-4d64-4edb-a080-e45c559424e0",
+            "Value": {
+                "id": "5c503e8c-8b81-493a-80a8-3d9eb90df0b2",
+                "resourcePath": "sprites\\spr_ui_weapon_charge_ratio\\spr_ui_weapon_charge_ratio.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "63c4fe10-c3d1-4f1d-915c-b890bec34655",
             "Value": {
                 "id": "eafeb4c7-dbfa-46d1-a3d3-dc97d468ac08",
