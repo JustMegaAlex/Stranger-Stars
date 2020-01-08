@@ -239,6 +239,14 @@
             }
         },
         {
+            "Key": "34711ed3-bacf-47c3-b5a7-0c1214b706e8",
+            "Value": {
+                "id": "09df317b-bff4-49c4-a0af-77463ad51f44",
+                "resourcePath": "sprites\\spr_ui_shield_chrge_ratio\\spr_ui_shield_chrge_ratio.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "34a90611-8705-42ec-96fc-39f91de2e578",
             "Value": {
                 "id": "c06c872a-ff2c-48e1-b202-960cfe70c5b7",
