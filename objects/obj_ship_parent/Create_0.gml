@@ -79,13 +79,16 @@ destroy_delay_time = 10
 /////////////////////stats
 stat_hull_max = 10
 stat_hull = stat_hull_max
-stat_shield_max = 5
-stat_shield = stat_shield_max
+
 stat_reactor_power = 5
+
 stat_weapon_charge_max = 600
 stat_weapon_charge = 0
 stat_weapon_charge_ratio_max = 5
 stat_weapon_charge_ratio = 0
+
+stat_shield_max = 5
+stat_shield = 2
 stat_shield_charge_max = 300
 stat_shield_charge = 0
 stat_shield_charge_ratio_max = 5

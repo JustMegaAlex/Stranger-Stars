@@ -8,6 +8,7 @@ stat_weapon_charge = scr_approach(stat_weapon_charge,
 									stat_weapon_charge_max,
 									stat_weapon_charge_ratio)
 
+
 stat_shield_charge = scr_approach(stat_shield_charge,
 									stat_shield_charge_max,
 									stat_shield_charge_ratio)
