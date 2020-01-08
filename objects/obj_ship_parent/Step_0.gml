@@ -13,4 +13,10 @@ stat_shield_charge = scr_approach(stat_shield_charge,
 									stat_shield_charge_max,
 									stat_shield_charge_ratio)
 									
+if stat_shield < stat_shield_max	
+	if stat_shield_charge == stat_shield_charge_max {
+		stat_shield++
+		stat_shield_charge = 0
+	}
+									
 scr_ui_update()
