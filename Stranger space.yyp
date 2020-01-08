@@ -607,6 +607,14 @@
             }
         },
         {
+            "Key": "bde37384-bf5a-4a00-83d3-d3a374da89f9",
+            "Value": {
+                "id": "a136ee66-8df1-478f-9155-7255f389aab6",
+                "resourcePath": "objects\\obj_ui_shield_charge_ratio\\obj_ui_shield_charge_ratio.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "bf11be01-e127-4a68-b645-f5020cd21389",
             "Value": {
                 "id": "3e5743b9-ff3c-4bb6-8ac5-68056d9326f3",
