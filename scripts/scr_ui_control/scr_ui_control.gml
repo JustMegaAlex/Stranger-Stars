@@ -20,7 +20,28 @@ switch argument0 {
 																	1)
 			}
 		}
-		
-		scr_ui_update()
+		break
 	}
+	
+	case _shield: {
+		
+		switch argument1 {
+			case _up: {
+				obj_ship.stat_shield_charge_ratio = scr_approach(obj_ship.stat_shield_charge_ratio,
+																	obj_ship.stat_shield_charge_ratio_max,
+																	1)
+			break
+			}
+		
+			case _down: {
+				obj_ship.stat_shield_charge_ratio = scr_approach(obj_ship.stat_shield_charge_ratio,
+																	0,
+																	1)
+			}
+		}
+		break
+	}
+	
 }
+
+scr_ui_update()
