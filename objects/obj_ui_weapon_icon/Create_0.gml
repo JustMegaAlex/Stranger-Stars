@@ -19,4 +19,4 @@ param_heat = 0
 
 // charge ratio icon obj
 instance_create_layer(x, y, layer, obj_ui_weapon_charge_ratio)
-instance_create_layer(x, y, layer, obj_ui_weapon_1)
+instance_create_depth(x, y, depth - 1, obj_ui_weapon_1)
