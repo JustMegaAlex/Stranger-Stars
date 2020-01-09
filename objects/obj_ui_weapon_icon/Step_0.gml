@@ -9,9 +9,10 @@ if image_index != _checked_img { // if already choosed
 	
 		// just pressed
 		if obj_sys.mouse_left {
-			// press action code
+			// uncheck all buttons
 			with obj_ui_weapon_icon
 				image_index = _default
+			// set checked subimage
 			image_index = _checked_img
 		}
 	}
