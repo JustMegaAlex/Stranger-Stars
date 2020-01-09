@@ -8,16 +8,24 @@ switch argument0 {
 		
 		switch argument1 {
 			case _up: {
-				obj_ship.stat_weapon_charge_ratio = scr_approach(obj_ship.stat_weapon_charge_ratio,
-																	obj_ship.stat_weapon_charge_ratio_max,
-																	1)
-			break
+				// check reactor has spare power
+				if obj_ship.stat_reactor_power_spare {
+					obj_ship.stat_weapon_charge_ratio = scr_approach(obj_ship.stat_weapon_charge_ratio,
+																		obj_ship.stat_weapon_charge_ratio_max,
+																		1)
+					obj_ship.stat_reactor_power_spare--
+				}
+				break
 			}
 		
 			case _down: {
-				obj_ship.stat_weapon_charge_ratio = scr_approach(obj_ship.stat_weapon_charge_ratio,
-																	0,
-																	1)
+				// check if reactor power should be increased
+				if obj_ship.stat_weapon_charge_ratio {
+					obj_ship.stat_weapon_charge_ratio = scr_approach(obj_ship.stat_weapon_charge_ratio,
+																		0,
+																		1)
+					obj_ship.stat_reactor_power_spare++
+				}
 			}
 		}
 		break
@@ -27,16 +35,25 @@ switch argument0 {
 		
 		switch argument1 {
 			case _up: {
-				obj_ship.stat_shield_charge_ratio = scr_approach(obj_ship.stat_shield_charge_ratio,
+				// check reactor has spare power
+				if obj_ship.stat_reactor_power_spare {
+					obj_ship.stat_shield_charge_ratio = scr_approach(obj_ship.stat_shield_charge_ratio,
 																	obj_ship.stat_shield_charge_ratio_max,
 																	1)
+					obj_ship.stat_reactor_power_spare--
+				}
+				
 			break
 			}
 		
 			case _down: {
-				obj_ship.stat_shield_charge_ratio = scr_approach(obj_ship.stat_shield_charge_ratio,
-																	0,
-																	1)
+				// check if reactor power should be increased
+				if obj_ship.stat_shield_charge_ratio {
+					obj_ship.stat_shield_charge_ratio = scr_approach(obj_ship.stat_shield_charge_ratio,
+																		0,
+																		1)
+					obj_ship.stat_reactor_power_spare++
+				}
 			}
 		}
 		break
