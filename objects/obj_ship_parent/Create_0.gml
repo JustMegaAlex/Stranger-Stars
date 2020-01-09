@@ -81,7 +81,7 @@ stat_hull_max = 10
 stat_hull = stat_hull_max
 
 stat_reactor_power = 5
-stat_reactor_power_spare = 0
+stat_reactor_power_spare = stat_reactor_power
 
 stat_weapon_charge_max = 600
 stat_weapon_charge = 0
