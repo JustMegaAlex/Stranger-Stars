@@ -46,7 +46,7 @@ hull_full_durability = 100 //прочность корпуса начальна�
 hull_durability = hull_full_durability	//=//= текущая
 direction = 0
 
-//stun state
+// stun state
 stun_set_time = 30
 stun_time = 0
 dir = 0
@@ -58,6 +58,9 @@ target_y = y
 dir_target_x = x
 dir_target_y = y
 target_dist = 0
+
+// shooting
+target_to_shoot = noone
 
 scr_navigation_set(Navigation.stay)
 
@@ -89,6 +92,7 @@ stat_weapon_charge_ratio_max = 5
 stat_weapon_charge_ratio = 0
 stat_weapon_heat_max = 10
 stat_weapon_heat = 4
+weapon_projectile = obj_projectile
 
 stat_shield_max = 5
 stat_shield = 2

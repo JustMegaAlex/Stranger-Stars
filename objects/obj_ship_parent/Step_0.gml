@@ -18,5 +18,15 @@ if stat_shield < stat_shield_max
 		stat_shield++
 		stat_shield_charge = 0
 	}
-									
+	
+// shoot
+if target_to_shoot {
+	stat_weapon_charge = 0
+	with instance_create_layer(x, y, layer, weapon_projectile) {
+		target = obj_ship.target_to_shoot
+	}
+	target_to_shoot = noone
+}
+	
+// ui update
 scr_ui_update()

@@ -1,5 +1,6 @@
-/// @description Insert description here
-// You can write your code in this editor
+
+image_angle = point_direction(x, y, target.x, target.y)
+
 scr_move(sp, image_angle)
 
 got_him = instance_place(x, y, obj_ship_parent)
