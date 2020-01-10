@@ -623,6 +623,14 @@
             }
         },
         {
+            "Key": "ba0046c6-e645-42c8-b07e-6dee4a2ef79e",
+            "Value": {
+                "id": "453b2c80-07c7-4c30-ad08-2d207ac52997",
+                "resourcePath": "objects\\obj_space_stuff\\obj_space_stuff.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "bb5c82e3-52e0-4aa5-bb75-df03b88075a5",
             "Value": {
                 "id": "44148e44-0218-4a67-8ad6-23911ab6b92b",
