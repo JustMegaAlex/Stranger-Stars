@@ -18,6 +18,12 @@ if image_index != _checked_img { // if already choosed
 	}
 }
 else {
-	if interacting and obj_sys.mouse_left // cancel choosing
-		image_index = _interact_img
+	obj_sys.ui_interacting = true
+	
+	if obj_sys.mouse_left //
+		if interacting 
+			image_index = _interact_img
+		else {
+			
+		}
 }
