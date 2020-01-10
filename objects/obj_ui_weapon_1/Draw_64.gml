@@ -1,6 +1,6 @@
 
 // Inherit the parent event
-event_inherited();
+event_inherited()
 
 draw_sprite(sprite_index, _weap_def, x, y)
 

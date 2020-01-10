@@ -407,6 +407,14 @@
             }
         },
         {
+            "Key": "6f1474fc-7037-419c-83c4-59b30e275d50",
+            "Value": {
+                "id": "e39c8c73-cc6c-4fe8-812c-ea7f8f1d5792",
+                "resourcePath": "scripts\\scr_ui_weapon_icon_deactivate\\scr_ui_weapon_icon_deactivate.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "714af498-049e-4b55-9b52-4c3f3a0197c2",
             "Value": {
                 "id": "26c838f5-7882-49a6-9b3c-8f5927f82c04",
@@ -759,6 +767,14 @@
             }
         },
         {
+            "Key": "e395cb94-1e14-46a1-9eb2-10d24c4d879f",
+            "Value": {
+                "id": "fc02ccb9-6afc-4323-a33e-df3e7f38a984",
+                "resourcePath": "scripts\\scr_ui_weapon_icon_activate\\scr_ui_weapon_icon_activate.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "e42bf5cc-3f46-4d67-a6d0-a4885a11ac3f",
             "Value": {
                 "id": "3040f64f-1223-4991-bfa3-081ced285466",
@@ -842,6 +858,8 @@
         "ff2d2488-e506-4789-b18e-6f9d46b675b1",
         "2731935e-7ca1-44cf-9587-3136fc992231",
         "1154e7ea-6c04-402e-b708-7fa9260a70f6",
+        "6f1474fc-7037-419c-83c4-59b30e275d50",
+        "e395cb94-1e14-46a1-9eb2-10d24c4d879f",
         "ccadb242-25e0-422f-872f-4227c02ebf7b",
         "7a96eb20-0cd0-493e-8350-832fdbbc8820",
         "0c5988ab-1d80-44b5-bd45-4df25a32f051",
