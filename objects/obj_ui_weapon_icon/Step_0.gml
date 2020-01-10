@@ -19,6 +19,8 @@ if image_index != _checked_img { // if already choosed
 	}
 }
 else {	
-	if obj_sys.mouse_left //
+	if obj_sys.mouse_left { //uncheck
 		scr_ui_weapon_icon_deactivate()
+		image_index = _interact_img
+	}
 }
