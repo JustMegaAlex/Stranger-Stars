@@ -24,6 +24,7 @@ if target_to_shoot {
 		stat_weapon_charge = 0
 		with instance_create_layer(x, y, layer, weapon_projectile) {
 			target = obj_ship.target_to_shoot
+			image_angle = point_direction(x, y, target.x, target.y)
 		}
 		target_to_shoot = noone
 	}
