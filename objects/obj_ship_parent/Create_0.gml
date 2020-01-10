@@ -87,6 +87,8 @@ stat_weapon_charge_max = 600
 stat_weapon_charge = 0
 stat_weapon_charge_ratio_max = 5
 stat_weapon_charge_ratio = 0
+stat_weapon_heat_max = 10
+stat_weapon_heat = 4
 
 stat_shield_max = 5
 stat_shield = 2
