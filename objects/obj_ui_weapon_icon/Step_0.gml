@@ -22,9 +22,5 @@ else {
 	obj_sys.ui_interacting = true
 	
 	if obj_sys.mouse_left //
-		if interacting 
-			image_index = _interact_img
-		else {
-			
-		}
+		scr_ui_weapon_icon_deactivate()
 }
