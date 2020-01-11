@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "1252adf5-63ba-4ea5-b7e4-9d379dfe0e55",
+            "Value": {
+                "id": "e02caed8-3099-4484-be54-91afc7a2f7ca",
+                "resourcePath": "sprites\\spr_ship_red_goblin\\spr_ship_red_goblin.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "132695b0-0859-464a-a320-8dc427712b94",
             "Value": {
                 "id": "e0a8e722-01a5-4862-9462-d74395e4f597",
@@ -191,6 +199,14 @@
             }
         },
         {
+            "Key": "2d2bdcf2-922e-4363-8b9f-d55eb780df2f",
+            "Value": {
+                "id": "759756fa-ce18-4fc0-818d-d198c42b71cf",
+                "resourcePath": "sprites\\spr_ship_hypo\\spr_ship_hypo.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2ecba650-115e-406c-b073-6c5340c1653b",
             "Value": {
                 "id": "1d539aa8-2c21-4b4b-9458-925ed4b3ddb2",
@@ -298,7 +314,7 @@
             "Key": "3b8875da-971b-41da-b20a-cd04cb3ef4f4",
             "Value": {
                 "id": "9c40ca3d-5887-4b0a-b89f-b7d6816bb472",
-                "resourcePath": "sprites\\spr_ship\\spr_ship.yy",
+                "resourcePath": "sprites\\spr_ship_misc\\spr_ship_misc.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -503,6 +519,14 @@
             }
         },
         {
+            "Key": "82f5dccd-6f9b-458b-8dcf-cab6b44fe1f5",
+            "Value": {
+                "id": "21f142bf-f107-4362-817e-d0da6f68028f",
+                "resourcePath": "views\\82f5dccd-6f9b-458b-8dcf-cab6b44fe1f5.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "834b9d2a-4cf3-4d19-b03f-2735fdbb6581",
             "Value": {
                 "id": "482f3fa8-7400-4e73-9e8c-75e87626cf0e",
@@ -516,6 +540,14 @@
                 "id": "0de517ee-c543-4f8e-85e8-afc82375f995",
                 "resourcePath": "options\\ios\\options_ios.yy",
                 "resourceType": "GMiOSOptions"
+            }
+        },
+        {
+            "Key": "857f710c-2f45-412a-9124-96bcf06b5412",
+            "Value": {
+                "id": "0455a925-8680-4307-8942-d03ad6c3edde",
+                "resourcePath": "sprites\\spr_ship_grig\\spr_ship_grig.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -668,6 +700,14 @@
                 "id": "5fd23773-7aa9-4d9a-88f5-05d9726bc8a6",
                 "resourcePath": "views\\c5dbaecd-a789-4b9e-8dc1-038be1e1ba28.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c6982d8c-49b8-4857-b87b-8541be3e630f",
+            "Value": {
+                "id": "6cda1627-2613-41a9-b8c6-fba7d7987765",
+                "resourcePath": "sprites\\spr_ship_skytyper\\spr_ship_skytyper.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
