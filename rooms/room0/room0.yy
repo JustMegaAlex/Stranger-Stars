@@ -35,8 +35,8 @@
         "a8ea5644-e916-411e-9763-509d87150d55",
         "60d7cdc9-a327-4c31-b683-cbce9da82c43",
         "18d8c9ad-6b76-4ae9-8453-58ac915dc1dc",
-        "3608c28d-03c9-4802-99fb-b176d91d9fb2",
         "3b035686-f3d1-42b3-902d-393affa21cf0",
+        "3608c28d-03c9-4802-99fb-b176d91d9fb2",
         "20c9d23f-c82d-4135-9553-1b03186bd623",
         "41e476f5-3338-4ae7-bf0c-d3baf1439613",
         "885d8ddf-85a9-42fe-8ab0-365e119d5320",
@@ -386,7 +386,7 @@
     },
     "mvc": "1.0",
     "views": [
-{"id": "09cd08ea-5b75-4573-bea3-f480baf1d281","hborder": 32,"hport": 800,"hspeed": -1,"hview": 1600,"inherit": false,"modelName": "GMRView","objId": "00000000-0000-0000-0000-000000000000","mvc": "1.0","vborder": 32,"visible": true,"vspeed": -1,"wport": 1100,"wview": 2200,"xport": 0,"xview": 0,"yport": 0,"yview": 0},
+{"id": "09cd08ea-5b75-4573-bea3-f480baf1d281","hborder": 32,"hport": 800,"hspeed": -1,"hview": 1200,"inherit": false,"modelName": "GMRView","objId": "00000000-0000-0000-0000-000000000000","mvc": "1.0","vborder": 32,"visible": true,"vspeed": -1,"wport": 1100,"wview": 1650,"xport": 0,"xview": 0,"yport": 0,"yview": 0},
 {"id": "ad66a2f5-5cb6-4e76-8526-4eab7755940f","hborder": 32,"hport": 768,"hspeed": -1,"hview": 800,"inherit": false,"modelName": "GMRView","objId": "00000000-0000-0000-0000-000000000000","mvc": "1.0","vborder": 32,"visible": false,"vspeed": -1,"wport": 1024,"wview": 1100,"xport": 0,"xview": 0,"yport": 0,"yview": 0},
 {"id": "39b3b767-309d-4dec-af02-0d4e661ea9ac","hborder": 32,"hport": 768,"hspeed": -1,"hview": 768,"inherit": false,"modelName": "GMRView","objId": "00000000-0000-0000-0000-000000000000","mvc": "1.0","vborder": 32,"visible": false,"vspeed": -1,"wport": 1024,"wview": 1024,"xport": 0,"xview": 0,"yport": 0,"yview": 0},
 {"id": "4278134b-f857-4a0f-ad79-79626cf3a84a","hborder": 32,"hport": 768,"hspeed": -1,"hview": 768,"inherit": false,"modelName": "GMRView","objId": "00000000-0000-0000-0000-000000000000","mvc": "1.0","vborder": 32,"visible": false,"vspeed": -1,"wport": 1024,"wview": 1024,"xport": 0,"xview": 0,"yport": 0,"yview": 0},
