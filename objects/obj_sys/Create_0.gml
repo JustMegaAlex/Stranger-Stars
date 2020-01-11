@@ -14,26 +14,31 @@ ui_controller = noone	//
 //view_set_wport(view_camera[0], w)
 //view_set_hport(view_camera[0], h)
 display_set_gui_size(window_get_width(), window_get_height())
+var view_w = view_get_wport(view_camera[0])
+var view_h = view_get_hport(view_camera[0])
 
 
 // if game is first time launched 
 // show tips in a half a second
 show_tips = false
 show_tips_scale = 2
-show_tips_x = (view_get_wport(view_camera[0]) - sprite_get_width(spr_control_tips) * show_tips_scale) + 50// * 0.5
-show_tips_y = (view_get_hport(view_camera[0]) - sprite_get_height(spr_control_tips) * show_tips_scale) - 40// * 0.5
+show_tips_x = (view_w - sprite_get_width(spr_control_tips) * show_tips_scale) + 50// * 0.5
+show_tips_y = (view_h - sprite_get_height(spr_control_tips) * show_tips_scale) - 40// * 0.5
 alarm[0] = -1 // turn off
 
 //ini of debug scripts' vars
 scr_debugINI();
 
 //background
-surf_stars = surface_create(room_width,room_height);
+var surf_size = 1.5
+var surf_w = view_w*surf_size
+var surf_h = view_h*surf_size
+surf_stars = surface_create(surf_w, surf_h)
 surface_set_target(surf_stars);
 repeat(80)
     draw_sprite(spr_stars,irandom(sprite_get_number(spr_stars)),
-				random(room_width),
-				random(room_height));
+				random(surf_w),
+				random(surf_h));
 surface_reset_target();
 x_room_start = 0
 y_room_start = 0
