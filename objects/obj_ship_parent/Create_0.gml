@@ -22,7 +22,7 @@ enum Sp_level {	//ref to list_sp_levels
 }
 
 //////////ini general ship parameters
-sp_cruise = 2
+sp_cruise = 8
 sp = 0
 sp_to = 0 //sp value to approach
 
@@ -40,7 +40,7 @@ sp_glide_max = 0.2
 glide_distance = 30
 image_angle = 90
 rotation_sp = 145/room_speed;
-accel = 0.05
+accel = 0.2
 rel_target_dir = 0	//относительное направление к точке следования
 hull_full_durability = 100 //прочность корпуса начальная
 hull_durability = hull_full_durability	//=//= текущая
