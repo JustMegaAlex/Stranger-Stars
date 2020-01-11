@@ -8,9 +8,9 @@ ui_interacting = noone	// is affected by ui elements
 ui_controller = noone	//
 
 //camera
-viewPortRatio = 2;
-w = camera_get_view_width(view_camera[0]) * viewPortRatio
-h = camera_get_view_height(view_camera[0]) * viewPortRatio
+//viewPortRatio = 2
+//w = camera_get_view_width(view_camera[0]) * viewPortRatio
+//h = camera_get_view_height(view_camera[0]) * viewPortRatio
 //view_set_wport(view_camera[0], w)
 //view_set_hport(view_camera[0], h)
 display_set_gui_size(window_get_width(), window_get_height())
