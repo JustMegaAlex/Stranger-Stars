@@ -67,8 +67,8 @@ scr_navigation_set(Navigation.stay)
 /////////////////particles
 ps_jet = obj_sys.part_sys_effects_deep
 part_jet = part_type_create()
-var life_coef = 1
-part_type_life(part_jet, life_coef*room_speed, life_coef*room_speed)
+var life_seconds = 0.25
+part_type_life(part_jet, life_seconds*room_speed, life_seconds*room_speed)
 part_type_sprite(part_jet, spr_partJet, true, true, false)
 partSpawnTime = 2
 alarm[0] = partSpawnTime
