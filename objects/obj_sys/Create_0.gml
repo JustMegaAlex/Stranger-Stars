@@ -30,25 +30,29 @@ alarm[0] = -1 // turn off
 scr_debugINI();
 
 //background
-var surf_size = 1.5
+var surf_size = 2
 var surf_w = view_w*surf_size
 var surf_h = view_h*surf_size
+var stars_num = 80
 surf_stars = surface_create(surf_w, surf_h)
 surface_set_target(surf_stars);
-repeat(80)
+repeat(stars_num)
     draw_sprite(spr_stars,irandom(sprite_get_number(spr_stars)),
 				random(surf_w),
 				random(surf_h));
-surface_reset_target();
-x_room_start = 0
-y_room_start = 0
+surface_reset_target()
+
+x_ship_st = 0
+y_ship_st = 0
 if instance_exists(obj_ship) {
-	x_room_start = obj_ship.x
-	y_room_start = obj_ship.y
+	x_ship_st = obj_ship.x
+	y_ship_st = obj_ship.y
 }
-	
-x_draw_stars = 0
-y_draw_stars = 0
+x_draw_stars_start = x_ship_st - surf_w * 0.5
+y_draw_stars_start = y_ship_st - surf_h * 0.5
+
+x_draw_stars = x_draw_stars_start
+y_draw_stars = y_draw_stars_start
 stars_parallax = 0.9
 
 //////////particle systems

@@ -1,8 +1,10 @@
 
 if instance_exists(obj_view) {
-	x_draw_stars = obj_view.x
-	y_draw_stars = obj_view.y
+	x_draw_stars = x_draw_stars_start + (obj_view.x - x_ship_st) * stars_parallax
+	y_draw_stars = y_draw_stars_start + (obj_view.y - y_ship_st) * stars_parallax
 }
 
+
+
 if surface_exists(surf_stars)
-	draw_surface(surf_stars, (x_draw_stars-x_room_start)*stars_parallax, (y_draw_stars-y_room_start)*stars_parallax)
+	draw_surface(surf_stars, x_draw_stars, y_draw_stars)
