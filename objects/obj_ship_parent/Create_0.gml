@@ -1,5 +1,5 @@
 
-//Enums
+//// Enums
 enum Navigation {
 	stay,
 	control,
@@ -21,16 +21,16 @@ enum Sp_level {	//ref to list_sp_levels
 	decrease
 }
 
-//////////ini general ship parameters
+//// ini general ship parameters
 sp_cruise = 8
 sp = 0
 sp_to = 0 //sp value to approach
 
-//list of sp levels
+// list of sp levels
 list_sp_levels = ds_list_create()
 scr_fill_list_from_array(list_sp_levels, [0.25, 0.5, 1, 2])
 
-///////////////navigation
+// navigation
 navigation_cruise_mode = false //true -> not stoping after reaching target point
 break_down_dist = 0	// dist to stop at the target point
 rot_radius = 0		// radius of rotating trajectory
@@ -64,7 +64,7 @@ target_to_shoot = noone
 
 scr_navigation_set(Navigation.stay)
 
-/////////////////particles
+// particles
 ps_jet = obj_sys.part_sys_effects_deep
 part_jet = part_type_create()
 var life_seconds = 0.25
@@ -73,14 +73,14 @@ part_type_sprite(part_jet, spr_partJet, true, true, false)
 partSpawnTime = 2
 alarm[0] = partSpawnTime
 
-////////////////step code
+//// step code
 scr_step_code = scr_stub
 
-/////delay on destroying
+//// delay on destroying
 _destroy_alarm = 1
 destroy_delay_time = 10
 
-/////////////////////stats
+//// stats
 stat_hull_max = 10
 stat_hull = stat_hull_max
 
@@ -103,4 +103,4 @@ stat_shield_charge_ratio_max = 5
 stat_shield_charge_ratio = 0
 
 // late init
-alarm[2] = 1
+alarm[2] = -1 //off

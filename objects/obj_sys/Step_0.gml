@@ -1,4 +1,4 @@
-//////// inputs
+//// inputs
 input = keyboard_check(vk_anykey) or mouse_check_button(mb_any)
 
 mouse_left = mouse_check_button_pressed(mb_left)
@@ -40,5 +40,4 @@ if input {
 	}
 }
 
-// ui 
 ui_interacting = noone
