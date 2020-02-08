@@ -663,6 +663,14 @@
             }
         },
         {
+            "Key": "b8b0db02-dc08-4d73-8323-7132799bf8fd",
+            "Value": {
+                "id": "2bde3049-998d-4f5d-ba3e-c21328ddd220",
+                "resourcePath": "sprites\\spr_ui_dialog_window\\spr_ui_dialog_window.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ba0046c6-e645-42c8-b07e-6dee4a2ef79e",
             "Value": {
                 "id": "453b2c80-07c7-4c30-ad08-2d207ac52997",
