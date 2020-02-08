@@ -1,8 +1,5 @@
-/// @description Insert description here
-// You can write your code in this editor
 
-
-// сверхпродвинутый ИИ
+// сверхпродвинутый ИИ (щутка)
 if point_distance(x, y, target_x, target_y) < sp_max {
 	//задаем новую точку следования
 	dir_wander = irandom( 360 )
