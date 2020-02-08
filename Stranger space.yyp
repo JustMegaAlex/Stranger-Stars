@@ -511,6 +511,14 @@
             }
         },
         {
+            "Key": "7f2d1ce9-ed6f-4769-ab80-d5f70c458821",
+            "Value": {
+                "id": "33cdb6ad-ff3e-4a25-a4b5-6fd7a69cb717",
+                "resourcePath": "objects\\obj_ui_dialog_window\\obj_ui_dialog_window.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "82e59698-f423-4ab8-9842-6f7d7591ef72",
             "Value": {
                 "id": "ba635511-cd3a-4a40-a3fa-dc82e0440d35",
