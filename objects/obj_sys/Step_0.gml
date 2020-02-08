@@ -9,15 +9,7 @@ key_cruise = keyboard_check_pressed(ord("A"))
 
 if input {
 	
-	if ui_interacting {
-
-	}
-	
-	else if ui_controller {
-		
-	}
-	
-	else { // ship control
+	if ui_part == Sys_ui.normal { // ship control
 		if mouse_left {
 			with obj_ship {
 				scr_set_fly_target(mouse_x, mouse_y)
@@ -39,5 +31,3 @@ if input {
 			obj_ship.navigation_cruise_mode = !obj_ship.navigation_cruise_mode
 	}
 }
-
-ui_interacting = noone

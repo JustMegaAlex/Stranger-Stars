@@ -1,9 +1,17 @@
 //////////init gameplay
 
 //// active pause
-active_pause_activated = false;
+active_pause_activated = false
 
 //// ui
+// ui parts enum
+enum Sys_ui{
+	menu,
+	normal,
+	ship_systems,
+	dialog
+}
+ui_part = Sys_ui.normal
 ui_interacting = noone	// is affected by ui elements
 ui_controller = noone	//
 
