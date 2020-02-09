@@ -7,3 +7,4 @@ if obj_sys.ui_part == Sys_ui.dialog
 			visible = false
 			obj_sys.ui_part = Sys_ui.normal
 		}
+		
