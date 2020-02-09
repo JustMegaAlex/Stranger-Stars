@@ -917,6 +917,14 @@
                 "resourcePath": "scripts\\scr_fill_list_from_array\\scr_fill_list_from_array.yy",
                 "resourceType": "GMScript"
             }
+        },
+        {
+            "Key": "ffbc74f7-5efd-4f22-b90a-8e9dc0ba9147",
+            "Value": {
+                "id": "7cb52212-5b3c-4627-8921-9f9bf1bcd297",
+                "resourcePath": "sprites\\spr_comm_button\\spr_comm_button.yy",
+                "resourceType": "GMSprite"
+            }
         }
     ],
     "script_order": [
