@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "03fe74f1-9682-4593-be53-adb36a74dff2",
+            "Value": {
+                "id": "30ad8fdf-36c1-4444-9f8b-3018d45d84e4",
+                "resourcePath": "objects\\obj_ui_comm_button\\obj_ui_comm_button.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "05902779-f273-4ee1-90ae-3f0f41ac05a4",
             "Value": {
                 "id": "fa8055e3-e480-4e89-9b0c-02c27de51d38",
