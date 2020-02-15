@@ -7,10 +7,10 @@ if obj_sys.mouse_left {
 			obj_ship.target_to_shoot = target	
 		}		
 	
-	image_index = _default
-	
-	with obj_ui_weapon_icon
+	with obj_ui_weapon_icon {
 		aim_controller = noone
+		image_index = _default
+	}
 		
 	obj_sys.ui_part = Sys_ui.normal
 	instance_destroy()
