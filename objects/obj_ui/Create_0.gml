@@ -3,9 +3,6 @@ image_speed = 0
 mouse_over_me = false
 interacting = false
 
-//// mouse ui coordinates
-m_x = 0
-m_y = 0
 
 //// Enums
 _weapon = 0

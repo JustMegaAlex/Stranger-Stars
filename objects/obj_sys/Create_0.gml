@@ -12,8 +12,12 @@ enum Sys_ui{
 	dialog
 }
 ui_part = Sys_ui.normal
-ui_interacting = noone	// is affected by ui elements
+ui_mouse_over_obj = noone	// is affected by ui elements
 ui_controller = noone	//
+
+// ui interacting
+ui_mouse_x = window_mouse_get_x()
+ui_mouse_y = window_mouse_get_y()
 
 //// camera
 display_set_gui_size(window_get_width(), window_get_height())
