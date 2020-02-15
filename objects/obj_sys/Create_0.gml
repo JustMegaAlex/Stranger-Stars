@@ -6,10 +6,12 @@ active_pause_activated = false
 //// ui
 // ui parts enum
 enum Sys_ui{
-	menu,
-	normal,
-	ship_systems,
-	dialog
+	menu,			// obj_sys controlled states
+	normal,			//
+	ship_systems,	//
+	dialog,			//
+	
+	ui_obj_controlled // ui obj controlled state
 }
 ui_part = Sys_ui.normal
 ui_mouse_over_obj = noone	// is affected by ui elements
