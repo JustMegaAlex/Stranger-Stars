@@ -48,4 +48,8 @@ switch ui_part {
 		}
 		break
 	}
+		
+	case Sys_ui.ui_obj_controlled: {
+		/// this state is controlled by ui objects
+	}
 }

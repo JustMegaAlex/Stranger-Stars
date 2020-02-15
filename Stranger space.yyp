@@ -183,6 +183,14 @@
             }
         },
         {
+            "Key": "2588d62a-d2ae-4962-8e54-a3095f27d9cf",
+            "Value": {
+                "id": "53f8ec25-8e0c-41d2-b8e4-56da608703a3",
+                "resourcePath": "objects\\obj_ui_check_button\\obj_ui_check_button.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "267c0aef-03ef-4cde-9a22-953689216d9c",
             "Value": {
                 "id": "9208d2d4-56a5-48c0-a44b-2232e9415169",

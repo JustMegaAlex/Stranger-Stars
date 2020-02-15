@@ -1,16 +1,14 @@
 
 event_inherited()
 
-/// subimages
-_default = 0
-_interact_img = 1
-_checked_img = 2
+/// extra subimages
 _charge_img = 3
 _heat_img = 4
 
+activate_script = scr_ui_weapon_icon_activate
+
 /// weapon ui obj
 weapon_spr = spr_weapon_1
-
 
 // parameters of elements
 x_st = 3
