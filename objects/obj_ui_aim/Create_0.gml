@@ -1,4 +1,2 @@
 
-// Inherit the parent event
-event_inherited();
-
+a = 1
