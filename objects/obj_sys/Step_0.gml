@@ -11,7 +11,7 @@ key_cruise = keyboard_check_pressed(ord("A"))
 ui_mouse_x = window_mouse_get_x()
 ui_mouse_y = window_mouse_get_y()
 
-ui_mouse_over_obj = collision_point(ui_mouse_x, ui_mouse_y, obj_ui, false, true)
+ui_mouse_over_obj = collision_point(ui_mouse_x, ui_mouse_y, obj_ui, true, true)
 
 switch ui_part {
 	case Sys_ui.normal: {
