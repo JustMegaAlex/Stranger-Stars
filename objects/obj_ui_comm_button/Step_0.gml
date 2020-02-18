@@ -12,6 +12,6 @@ if interacting {
 		scr_ui_open_dialog()
 	}
 }
-else {	
+else {
 	image_index = _default
 }

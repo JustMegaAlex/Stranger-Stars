@@ -9,7 +9,7 @@ switch image_index { // which is state by itself
 	case _interact_img: {
 		image_index = interacting
 		if obj_sys.mouse_left
-			script_execute(activate_script)
+			script_execute(action_script)
 		break
 	}
 	

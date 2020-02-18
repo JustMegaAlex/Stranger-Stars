@@ -6,4 +6,4 @@ _default = 0
 _interact_img = 1
 _checked_img = 2
 
-activate_script = scr_stub
+action_script = scr_stub

@@ -743,6 +743,14 @@
             }
         },
         {
+            "Key": "c3d0d649-2130-482c-b963-21c4e841bfa1",
+            "Value": {
+                "id": "ec468566-3f17-46db-aaa9-fa59f0fc4281",
+                "resourcePath": "objects\\obj_ui_button\\obj_ui_button.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c5dbaecd-a789-4b9e-8dc1-038be1e1ba28",
             "Value": {
                 "id": "5fd23773-7aa9-4d9a-88f5-05d9726bc8a6",
