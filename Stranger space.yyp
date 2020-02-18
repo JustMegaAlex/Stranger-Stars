@@ -599,6 +599,14 @@
             }
         },
         {
+            "Key": "8f6ab06b-8c8b-4fe0-ac80-441453d8fac8",
+            "Value": {
+                "id": "ea1bd4d0-3f7c-4e5b-aa27-a1d18fa108bf",
+                "resourcePath": "sprites\\spr_ui_dialog_button\\spr_ui_dialog_button.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9198839e-47b4-463b-b5d5-7cec6ebcbf32",
             "Value": {
                 "id": "d9a165ae-ac54-4312-9836-7e20fa44e92e",
@@ -747,6 +755,14 @@
             "Value": {
                 "id": "ec468566-3f17-46db-aaa9-fa59f0fc4281",
                 "resourcePath": "objects\\obj_ui_button\\obj_ui_button.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c595c0cd-86a9-4cc6-8b16-72d0b2ec76e0",
+            "Value": {
+                "id": "99036258-7fce-46cc-a1a8-b5b96a200a2a",
+                "resourcePath": "objects\\obj_ui_dialog_button\\obj_ui_dialog_button.yy",
                 "resourceType": "GMObject"
             }
         },
