@@ -1,16 +1,13 @@
 
 event_inherited()
 
-//image_index = _default
-
-//if interacting {
-//	image_index = _interact_img
+if interacting {
 	
-//	if obj_sys.mouse_left { // charge ratio up
-//		scr_ui_control(_weapon, _up)
-//	}
-//	else if obj_sys.mouse_right { // charge ratio down
-//		scr_ui_control(_weapon, _down)
-//	}
+	if obj_sys.mouse_left { // charge ratio up
+		scr_ui_control(_weapon, _up)
+	}
+	else if obj_sys.mouse_right { // charge ratio down
+		scr_ui_control(_weapon, _down)
+	}
 	
-//}
+}
