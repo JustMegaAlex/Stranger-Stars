@@ -250,7 +250,7 @@
             "Key": "32494429-108c-47d1-b5cb-5d953641822f",
             "Value": {
                 "id": "627bbb1c-8b7d-49bc-b6b7-6487ae566997",
-                "resourcePath": "scripts\\scr_tacticalPauseActivate\\scr_tacticalPauseActivate.yy",
+                "resourcePath": "scripts\\scr_tactical_pause_activate\\scr_tactical_pause_activate.yy",
                 "resourceType": "GMScript"
             }
         },
