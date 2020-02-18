@@ -855,6 +855,14 @@
             }
         },
         {
+            "Key": "dddac3d6-d3cb-449f-a907-ab5272831788",
+            "Value": {
+                "id": "47ace2f7-a144-49e1-8b5b-f9e70ff49270",
+                "resourcePath": "datafiles_yy\\dialogs.ini.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "e043b48d-e711-4309-839e-9d2804c83cae",
             "Value": {
                 "id": "d7fb5d3d-c9c2-45a6-915b-bada8b1477ea",
