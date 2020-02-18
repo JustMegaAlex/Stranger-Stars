@@ -10,5 +10,8 @@ with obj_ui_dialog_window {
 	text = ini_read_string("text", "text", "damn it")
 
 	// create button
-	button = instance_create_layer(btn_x, btn_y, layer, obj_ui_)
+	button = instance_create_depth(btn_x, btn_y, depth - 1, obj_ui_dialog_button)
+	button.text = ini_read_string("text", "button", "oops")
+	
+	ini_close()
 }
