@@ -17,6 +17,8 @@ ui_part = Sys_ui.normal
 ui_mouse_over_obj = noone	// is affected by ui elements
 ui_controller = noone	//
 
+draw_set_font(fnt_ui)
+
 // ui interacting
 ui_mouse_x = window_mouse_get_x()
 ui_mouse_y = window_mouse_get_y()
