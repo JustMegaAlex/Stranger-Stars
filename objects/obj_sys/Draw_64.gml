@@ -9,4 +9,4 @@ if show_tips
 //// debug scripts
 scr_debug_scripts_update()
 
-scr_debug_showVar("ui part", Sys_ui.dialog)
+scr_debug_showVar("ui part", ui_part)
