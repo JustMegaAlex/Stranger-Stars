@@ -8,6 +8,7 @@ var page = obj_ui_dialog_window.page
 var btn_text = ""
 
 switch obj {
+	
 	case obj_scout: {
 		if obj.already_talked
 			page = 4
@@ -16,6 +17,7 @@ switch obj {
 			case 0: {
 				text = "Ооо! Надо же. Новый посетитель самого пустого места во вселенной."
 				btn_text = "Привет"
+				scr_dialog_page_add_button(page_data, btn_text, scr_dialog_next_page)
 				scr_dialog_page_add_button(page_data, btn_text, scr_dialog_next_page)
 				break
 			}
@@ -33,7 +35,7 @@ switch obj {
 			}
 			case 3: {
 				text = "Хах, ну хорошо."
-				btn_text = "Ну вот и славно"
+				btn_text = "Вот и славно"
 				scr_dialog_page_add_button(page_data, btn_text, scr_ui_close_dialog)
 				break
 			}
@@ -47,3 +49,7 @@ switch obj {
 		break	
 	}
 }
+
+page_data[? "text"] = text
+
+return page_data
