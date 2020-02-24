@@ -8,8 +8,10 @@ switch image_index { // which is state by itself
 	
 	case _interact_img: {
 		image_index = interacting
-		if obj_sys.mouse_left
+		if obj_sys.mouse_left {
+			image_index = _checked_img
 			script_execute(action_script)
+		}
 		break
 	}
 	

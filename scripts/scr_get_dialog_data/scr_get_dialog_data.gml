@@ -7,6 +7,9 @@ var text = ""
 var page = obj_ui_dialog_window.page
 var btn_text = ""
 
+if !object_exists(obj)
+	obj = obj.object_index
+
 switch obj {
 	
 	case obj_scout: {

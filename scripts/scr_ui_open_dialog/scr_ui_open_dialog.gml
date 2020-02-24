@@ -6,7 +6,7 @@ scr_tactical_pause_activate(true)
 
 with obj_ui_dialog_window {
 	
-	dialog_data = scr_get_dialog_data(obj_scout) // map data structure
+	dialog_data = scr_get_dialog_data(argument0) // map data structure
 	
 	if !ds_map_empty(dialog_data) {
 		// ini dialog
