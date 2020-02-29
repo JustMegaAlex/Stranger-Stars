@@ -12,7 +12,7 @@ text_y = y + 20
 // button = noone
 btn_x = text_x
 btn_y = y + sprite_height - 100
-space_between_buttons = 20
+space_between_buttons = 30
 
 //// dialog parameters
 page = 0

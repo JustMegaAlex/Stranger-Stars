@@ -21,7 +21,6 @@ with obj_ui_dialog_window {
 				var button = list[| i]
 				button.x = btn_x
 				button.y = btn_y + i*space_between_buttons
-				button.image_xscale = 200
 				button.x_text = button.x + 8
 				button.y_text = button.y - font_get_size(fnt_ui) * 0.6
 		}
