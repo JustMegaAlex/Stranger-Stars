@@ -1,35 +1,22 @@
 ------ToDo---------
 	>>>>>>>>> Include in prototype <<<<<<<<<
+	
 	>> shooting:
 		> target aiming guidance
-		> enemies
 		> asteroids
-		> space garbage
+		> shooting mechanics
+		> shield animation
 	>> AI
+		> enemies mobs
+		> miner mobs
 	>> dialogs:
-		> basic dialog system
 		> install new equipment
-		> control objects
-		> button to focus view on speak oponent
-	>> ui
-		> max range of overview
-		> view scaling
-		> arrows scrolling
-		> objects info
-	>> dialog window
-		> displaying text
-	>> asteroids
+
 	>> items collecting
 	>> stations
 		> docking
-		> station dialog window
 	>> equipment system:
-		> charging
-		> energy managing
 		> engine superthrust mode (in the end of demo)
-	
-	>>>> fixes/additions
-		> dialog buttons adaptive collision mask
 	
 	-----Done-----
 	>> flying
@@ -37,14 +24,34 @@
 		> basic shooting
 	>> equipment system:
 		> charging
+		> energy managing
 	>> ui:
 		> dialog window on/off
+	>> dialogs:
+		> displaying text
+		> basic dialog system
 		
 	
 	
 	>>>>>>>>>>>------<<<<<<<<<<<<	
+	>> control
+		> WASD controls
+	>> dialogs:
+		> control objects
+		> button to focus view on speak oponent
+	>> ui
+		> max range of overview
+		> view scaling
+		> arrows scrolling
+		> objects info
 	
+	> space garbage
+	> station dialog window
 	
+	>>>> fixes/additions
+		> dialog buttons adaptive collision mask
+		
+		
 	Long box:
 	>> hot keys
 	>> dicrete charging (charge up trigger by alarm)
