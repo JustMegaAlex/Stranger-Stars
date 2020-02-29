@@ -1,0 +1,57 @@
+------ToDo---------
+	>>>>>>>>> Include in prototype <<<<<<<<<
+	>> shooting:
+		> target aiming guidance
+		> enemies
+		> asteroids
+		> space garbage
+	>> AI
+	>> dialogs:
+		> basic dialog system
+		> install new equipment
+		> control objects
+		> button to focus view on speak oponent
+	>> ui
+		> max range of overview
+		> view scaling
+		> arrows scrolling
+		> objects info
+	>> dialog window
+		> displaying text
+	>> asteroids
+	>> items collecting
+	>> stations
+		> docking
+		> station dialog window
+	>> equipment system:
+		> charging
+		> energy managing
+		> engine superthrust mode (in the end of demo)
+	
+	>>>> fixes/additions
+		> dialog buttons adaptive collision mask
+	
+	-----Done-----
+	>> flying
+	>> shooting:
+		> basic shooting
+	>> equipment system:
+		> charging
+	>> ui:
+		> dialog window on/off
+		
+	
+	
+	>>>>>>>>>>>------<<<<<<<<<<<<	
+	
+	
+	Long box:
+	>> hot keys
+	>> dicrete charging (charge up trigger by alarm)
+	>> rot speed dependency from linear sp
+	>> fix ship jickering when rotating
+	>> screen shaking
+	>> fix jet prticle loss sfter restarting
+	>> experiment with ui layout
+	
+	>>>> onboard fighting as a text quest
