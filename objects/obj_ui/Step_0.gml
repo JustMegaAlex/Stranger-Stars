@@ -7,4 +7,6 @@ if obj_sys.ui_part == my_ui_part {
 	
 	if mouse_over_me
 		interacting = true
+		
+	var a = 1
 }
