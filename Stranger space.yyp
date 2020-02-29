@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "0e071361-592f-442f-a0f7-695ef948b946",
+            "Value": {
+                "id": "6698bdad-3851-416f-a7a6-806f3a35ebeb",
+                "resourcePath": "objects\\obj_space_station\\obj_space_station.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0e0ed920-0561-4292-9f1c-de738cc5102b",
             "Value": {
                 "id": "d99bb424-5d61-4555-9982-88bec186637a",
@@ -692,6 +700,14 @@
                 "id": "d0a75f5d-b0b8-4cf9-a212-a5bfa5d3aeb5",
                 "resourcePath": "scripts\\scr_ui_open_dialog\\scr_ui_open_dialog.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "a6ba3707-ad3e-42bb-afcf-5420798cc5e5",
+            "Value": {
+                "id": "83c29603-5b32-4f02-b6db-2946ee8380f0",
+                "resourcePath": "sprites\\spr_space_station\\spr_space_station.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
