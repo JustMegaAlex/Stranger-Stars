@@ -39,6 +39,7 @@ sp_glide = 0
 sp_glide_max = 0.2
 glide_distance = 30
 image_angle = 90
+image_speed = 0
 rotation_sp = 145/room_speed;
 accel = 0.2
 rel_target_dir = 0	//относительное направление к точке следования
