@@ -16,3 +16,4 @@ space_between_buttons = 20
 
 //// dialog parameters
 page = 0
+dialog_obj = noone

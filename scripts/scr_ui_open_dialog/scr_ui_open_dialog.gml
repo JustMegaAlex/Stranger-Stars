@@ -4,9 +4,14 @@ obj_sys.ui_part = Sys_ui.dialog
 obj_ui_dialog_window.visible = true
 scr_tactical_pause_activate(true)
 
+if instance_exists(obj_ui_dialog_button)
+	instance_destroy(obj_ui_dialog_button)
+
 with obj_ui_dialog_window {
 	
-	dialog_data = scr_get_dialog_data(argument0) // map data structure
+	dialog_obj = argument0
+	
+	dialog_data = scr_get_dialog_data(dialog_obj) // map data structure
 	
 	if !ds_map_empty(dialog_data) {
 		// ini dialog

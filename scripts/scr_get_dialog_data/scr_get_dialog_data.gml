@@ -21,7 +21,7 @@ switch obj {
 				text = "Ооо! Надо же. Новый посетитель самого пустого места во вселенной."
 				btn_text = "Привет"
 				scr_dialog_page_add_button(page_data, btn_text, scr_dialog_next_page)
-				scr_dialog_page_add_button(page_data, btn_text, scr_dialog_next_page)
+				scr_dialog_page_add_button(page_data, "Ну это только пока, я работаю... Привет.", scr_dialog_next_page)
 				break
 			}
 			case 1: {
@@ -37,9 +37,10 @@ switch obj {
 				break
 			}
 			case 3: {
-				text = "Хах, ну хорошо."
+				text = "Дааа, все в поряде"
 				btn_text = "Вот и славно"
 				scr_dialog_page_add_button(page_data, btn_text, scr_ui_close_dialog)
+				obj.already_talked = true
 				break
 			}
 			case 4: {
