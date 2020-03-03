@@ -52,6 +52,11 @@ switch obj {
 		}
 		break	
 	}
+	
+	case obj_space_station: {
+		text = "Добро пожаловать на станцию"
+		break
+	}
 }
 
 page_data[? "text"] = text

@@ -17,13 +17,14 @@ with obj_ui_dialog_window {
 		// ini dialog
 		text = dialog_data[? "text"]
 		var list = dialog_data[? "button_list"]
-		for(i = 0; i < ds_list_size(list); i++) {
+		if list
+			for(i = 0; i < ds_list_size(list); i++) {
 				var button = list[| i]
 				button.x = btn_x
 				button.y = btn_y + i*space_between_buttons
 				button.x_text = button.x + 8
 				button.y_text = button.y - font_get_size(fnt_ui) * 0.6
-		}
+			}
 	}
 	//// get text
 	//ini_open("dialogs.ini")
