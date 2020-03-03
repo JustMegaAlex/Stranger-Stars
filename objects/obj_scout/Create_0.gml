@@ -1,6 +1,8 @@
 //ini general ship parameters
 event_inherited()
 
+stat_hull = 2
+
 
 image_angle = 0
 

@@ -10,9 +10,20 @@ if place_meeting(x, y, target) {
 	part_particles_create(obj_sys.part_sys_effects,
 							xx, yy,
 							obj_sys.part_projectile_explosion, 1)
-	// target shield up
-	if object_is_ancestor(target.object_index, obj_ship_parent)
-		target.shield_anim_var = 1
+	// target take damage
+	if object_is_ancestor(target.object_index, obj_ship_parent) {
+		// shield up
+		if target.stat_shield {
+			target.shield_anim_var = damage
+			target.stat_shield -= damage
+		}
+		else {
+			target.stat_hull -= damage
+			if !target.stat_hull
+				instance_destroy(target)
+		}
+		
+	}
 		
 	instance_destroy()
 }
