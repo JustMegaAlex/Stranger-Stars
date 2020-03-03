@@ -1,6 +1,5 @@
 ------ToDo---------
 	>>>>>>>>> Include in prototype <<<<<<<<<
-	
 	>> shooting:
 		> target aiming guidance
 		> asteroids
@@ -10,7 +9,7 @@
 		> enemies mobs
 		> miner mobs
 	>> dialogs:
-		> install new equipment
+		> install new equipment on stations
 
 	>> items collecting
 	>> stations
@@ -18,7 +17,7 @@
 	>> equipment system:
 		> engine superthrust mode (in the end of demo)
 	
-	-----Done-----
+	>>>>>>Don<<<<<<<
 	>> flying
 	>> shooting:
 		> basic shooting
