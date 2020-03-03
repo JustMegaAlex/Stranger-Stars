@@ -671,6 +671,14 @@
             }
         },
         {
+            "Key": "99abd93c-de36-4515-9b67-8221f025b81d",
+            "Value": {
+                "id": "9323fc0c-10f9-4d4f-8914-1523bbe0eb2d",
+                "resourcePath": "sprites\\spr_ui_docking_button\\spr_ui_docking_button.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9f494e00-5889-49b8-a11a-f3762c8a483a",
             "Value": {
                 "id": "426504c0-068d-451c-8e4c-75fcd9677419",
