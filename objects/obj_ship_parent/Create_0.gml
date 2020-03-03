@@ -21,6 +21,13 @@ enum Sp_level {	//ref to list_sp_levels
 	decrease
 }
 
+//// images
+image_angle = 90
+image_speed = 0
+_img_shield_up = 1
+shield_anim_var = 0
+shield_anim_ratio = 0.05
+
 //// ini general ship parameters
 sp_cruise = 8
 sp = 0
@@ -38,8 +45,6 @@ sp_level_set = Sp_level.normal
 sp_glide = 0
 sp_glide_max = 0.2
 glide_distance = 30
-image_angle = 90
-image_speed = 0
 rotation_sp = 145/room_speed;
 accel = 0.2
 rel_target_dir = 0	//относительное направление к точке следования
