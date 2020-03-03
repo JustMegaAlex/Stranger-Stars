@@ -999,6 +999,14 @@
             }
         },
         {
+            "Key": "e3b75061-1a06-4f1b-9e9f-f5196c3178c7",
+            "Value": {
+                "id": "a58b051e-9172-45de-8643-4ded1a33d67b",
+                "resourcePath": "objects\\obj_ui_docking_button\\obj_ui_docking_button.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e42bf5cc-3f46-4d67-a6d0-a4885a11ac3f",
             "Value": {
                 "id": "3040f64f-1223-4991-bfa3-081ced285466",

@@ -22,6 +22,7 @@ draw_set_font(fnt_ui)
 // ui interacting
 ui_mouse_x = window_mouse_get_x()
 ui_mouse_y = window_mouse_get_y()
+ui_station_interact_distance = 60
 
 //// camera
 display_set_gui_size(window_get_width(), window_get_height())
