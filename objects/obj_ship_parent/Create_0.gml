@@ -48,8 +48,6 @@ glide_distance = 30
 rotation_sp = 145/room_speed;
 accel = 0.2
 rel_target_dir = 0	//относительное направление к точке следования
-hull_full_durability = 100 //прочность корпуса начальная
-hull_durability = hull_full_durability	//=//= текущая
 direction = 0
 
 // stun state
@@ -87,6 +85,9 @@ _destroy_alarm = 1
 destroy_delay_time = 10
 
 //// stats
+hull_full_durability = 100 //прочность корпуса начальная
+hull_durability = hull_full_durability	//=//= текущая
+
 stat_hull_max = 10
 stat_hull = stat_hull_max
 
@@ -99,6 +100,7 @@ stat_weapon_charge_ratio_max = 5
 stat_weapon_charge_ratio = 0
 stat_weapon_heat_max = 10
 stat_weapon_heat = 4
+stat_weapon_range = 500
 weapon_projectile = obj_projectile
 
 stat_shield_max = 5
