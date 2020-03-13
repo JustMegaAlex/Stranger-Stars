@@ -100,7 +100,7 @@ stat_weapon_charge_ratio_max = 5
 stat_weapon_charge_ratio = 0
 stat_weapon_heat_max = 10
 stat_weapon_heat = 4
-stat_weapon_range = 500
+stat_weapon_range = 1000
 weapon_projectile = obj_projectile
 
 stat_shield_max = 5
