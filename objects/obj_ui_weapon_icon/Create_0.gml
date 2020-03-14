@@ -21,4 +21,3 @@ aim_controller = noone
 
 // charge ratio icon obj
 instance_create_layer(x, y, layer, obj_ui_weapon_charge_ratio)
-instance_create_depth(x, y, depth - 1, obj_ui_weapon_1)
