@@ -4,7 +4,8 @@
     "mvc": "1.1",
     "name": "05b242c4-4add-4385-a22a-d1fec8ae2338",
     "children": [
-        "1eb1a686-ab65-4212-9d1c-8cb1c97cef17"
+        "1eb1a686-ab65-4212-9d1c-8cb1c97cef17",
+        "30799480-54fb-4edb-a7fc-434f17aa29d6"
     ],
     "filterType": "GMObject",
     "folderName": "Equipment",
