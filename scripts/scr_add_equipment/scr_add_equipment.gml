@@ -1,7 +1,7 @@
 ///@arg ship_obj
 ///@arg equipm_obj
 ship_obj = argument0
-equipm_obj = argument0
+equipm_obj = argument1
 
 switch equipm_obj.type {
 	case "weapon": {
