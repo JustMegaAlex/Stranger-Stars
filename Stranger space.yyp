@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "0f67fe39-3daf-47b5-92b7-79b2a1e1bb13",
+            "Value": {
+                "id": "42b0ff62-2855-4fbd-8868-f14b5fc02cc3",
+                "resourcePath": "objects\\obj_ui_weapon_icon_mockup\\obj_ui_weapon_icon_mockup.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1154e7ea-6c04-402e-b708-7fa9260a70f6",
             "Value": {
                 "id": "8b2bfbba-9814-491f-adb7-6ab4004ecd81",
