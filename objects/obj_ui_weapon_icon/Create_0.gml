@@ -15,6 +15,7 @@ weapon_spr = noone
 x_st = 3
 param_len = 147 // charge bar and heat bar length
 param_heat = 0
+param_charge = 0
 
 // aim controller obj
 aim_controller = noone
