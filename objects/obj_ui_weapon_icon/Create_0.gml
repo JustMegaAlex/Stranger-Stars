@@ -8,7 +8,8 @@ _heat_img = 4
 action_script = scr_ui_weapon_icon_activate
 
 /// weapon ui obj
-weapon_spr = spr_weapon_1
+weapon_obj = noone
+weapon_spr = noone
 
 // parameters of elements
 x_st = 3

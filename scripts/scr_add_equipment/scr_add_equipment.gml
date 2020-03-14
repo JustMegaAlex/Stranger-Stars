@@ -14,9 +14,14 @@ switch equipm_obj.type {
 			return
 		}
 		// add weapon
-		ship_obj.arr_weapon_objects[weapon_num] = instance_create_layer(0, 0, "UI", equipm_obj)
+		var weap_inst = instance_create_layer(0, 0, "UI", equipm_obj)
+		ship_obj.arr_weapon_objects[weapon_num] = weap_inst
 		// add ui weapon icon
-		instance_create_layer(0, 0, "UI", obj_ui_weapon_icon)
+		var xx = obj_sys.arr_weapon_icon_positions[weapon_num]
+		var yy = obj_sys.ui_weapon_icon_coord_y
+		var icon_obj = instance_create_layer(xx, yy, "UI", obj_ui_weapon_icon)
+		icon_obj.weapon_obj = weap_inst
+		icon_obj.weapon_spr = weap_inst.sprite_index
 		break
 	}
 }
