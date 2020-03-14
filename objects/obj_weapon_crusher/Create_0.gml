@@ -1,3 +1,6 @@
+
+event_inherited()
+
 //// stats
 stat_charge_max = 600
 stat_charge = 0
