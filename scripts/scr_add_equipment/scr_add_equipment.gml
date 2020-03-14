@@ -28,3 +28,6 @@ switch equipm_obj.type {
 		break
 	}
 }
+
+// assign ship instance var 
+equipm_inst.ship_obj = ship_obj

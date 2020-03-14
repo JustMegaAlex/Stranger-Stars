@@ -9,3 +9,8 @@ stat_range = 1000
 projectile_obj = noone
 
 type = "weapon"
+
+target = noone
+
+// set in scr_add_equipment
+ship_obj = noone

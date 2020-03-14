@@ -8,7 +8,7 @@ if obj_sys.mouse_left {
 		var target = collision_point(mouse_x, mouse_y, obj_space_stuff, false, true)
 		if target
 			if target.object_index != obj_ship 
-				scr_shoot_set_target(weapon_obj, target)
+				weapon_obj.target = target
 	}
 	
 	with obj_ui_weapon_icon {
