@@ -1,6 +1,7 @@
 event_inherited()
 
 weapon_icon_obj = noone
+weapon_obj = noone
 
 /// subimages
 _charge_img = 3
