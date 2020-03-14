@@ -3,9 +3,12 @@
 scr_navigate()
 
 /// stats update
-stat_weapon_charge = scr_approach(stat_weapon_charge,
-									stat_weapon_charge_max,
-									stat_weapon_charge_ratio)
+for(i=0; i<array_length_1d(arr_weapon_objects); i++) {
+	var weap_obj = arr_weapon_objects[i]
+	weap_obj.stat_charge = scr_approach(stat_charge,
+										stat_charge_max,
+										stat_charge_ratio)
+}
 
 
 stat_shield_charge = scr_approach(stat_shield_charge,
@@ -18,14 +21,3 @@ if stat_shield < stat_shield_max
 		stat_shield_charge = 0
 	}
 	
-// shoot
-if target_to_shoot {
-	if stat_weapon_charge == stat_weapon_charge_max {
-		stat_weapon_charge = 0
-		with instance_create_layer(x, y, layer, weapon_projectile) {
-			target = obj_ship.target_to_shoot
-			image_angle = point_direction(x, y, target.x, target.y)
-		}
-		target_to_shoot = noone
-	}
-}
