@@ -3,7 +3,8 @@
 ///@arg equip_inst
 var ship_system = argument[0]
 var control_actions = argument[1]
-var equip_inst = argument[2]
+if argument_count == 3
+	var equip_inst = argument[2]
 
 //// ui control
 switch ship_system {
