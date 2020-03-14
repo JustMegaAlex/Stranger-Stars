@@ -3,7 +3,7 @@ if obj_sys.mouse_left {
 	if point_distance(obj_ship.x, 
 					obj_ship.y, 
 					mouse_x, 
-					mouse_y) <= obj_ship.stat_weapon_range
+					mouse_y) <= weapon_obj.stat_range
 	{	
 		var target = collision_point(mouse_x, mouse_y, obj_space_stuff, false, true)
 		if target
