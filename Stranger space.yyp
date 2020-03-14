@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "05b242c4-4add-4385-a22a-d1fec8ae2338",
+            "Value": {
+                "id": "40b7ccb6-5352-4bca-92f2-e2306bb08301",
+                "resourcePath": "views\\05b242c4-4add-4385-a22a-d1fec8ae2338.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "0c5988ab-1d80-44b5-bd45-4df25a32f051",
             "Value": {
                 "id": "baa796ca-cfe4-4af8-b3ad-ff43af6fb9b7",
@@ -188,6 +196,14 @@
                 "id": "b8c14124-037b-4aa2-82f6-c8c599abd715",
                 "resourcePath": "scripts\\scr_move\\scr_move.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "1eb1a686-ab65-4212-9d1c-8cb1c97cef17",
+            "Value": {
+                "id": "3ad709e8-804b-45d0-ae74-43a120d4334b",
+                "resourcePath": "objects\\obj_weapon_crusher\\obj_weapon_crusher.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -863,6 +879,14 @@
             }
         },
         {
+            "Key": "c8f4157a-4985-4361-94b5-c392f7c45a08",
+            "Value": {
+                "id": "1c0bf3bb-de2f-4720-9f39-823010b86457",
+                "resourcePath": "scripts\\scr_shoot_set_target\\scr_shoot_set_target.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "fba66c81-fd0f-48fd-b88d-5f0410d61461",
@@ -1140,6 +1164,7 @@
         "1b3b6d7c-8eed-4892-87a4-b7b16827c08c",
         "67ee0399-6b11-4b13-8bef-adc0062d1118",
         "abc94d47-0387-4028-a3ba-c038bb595bd0",
+        "c8f4157a-4985-4361-94b5-c392f7c45a08",
         "549e3238-ddc1-40bf-a093-afeb52bfcfe1",
         "303b1676-ae64-43e7-b304-7e3d51b9c3fe"
     ],
