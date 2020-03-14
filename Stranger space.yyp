@@ -911,14 +911,6 @@
             }
         },
         {
-            "Key": "c8f4157a-4985-4361-94b5-c392f7c45a08",
-            "Value": {
-                "id": "1c0bf3bb-de2f-4720-9f39-823010b86457",
-                "resourcePath": "scripts\\scr_shoot_set_target\\scr_shoot_set_target.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "fba66c81-fd0f-48fd-b88d-5f0410d61461",
@@ -1175,7 +1167,6 @@
         "a541a650-eea6-45ad-955e-5e71d1b2b520",
         "59998963-ddda-41d1-b0c1-786101a70772",
         "0014ba6f-ffab-4e6c-98a8-3ae06775bbc6",
-        "c8f4157a-4985-4361-94b5-c392f7c45a08",
         "32e150a8-8e00-43e6-9b09-6ee03311d3ff",
         "3028a123-5608-4d53-9105-dfae010b2770",
         "9f494e00-5889-49b8-a11a-f3762c8a483a",
