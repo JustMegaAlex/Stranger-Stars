@@ -94,15 +94,6 @@ stat_hull = stat_hull_max
 stat_reactor_power = 5
 stat_reactor_power_spare = stat_reactor_power
 
-stat_weapon_charge_max = 600
-stat_weapon_charge = 0
-stat_weapon_charge_ratio_max = 5
-stat_weapon_charge_ratio = 0
-stat_weapon_heat_max = 10
-stat_weapon_heat = 4
-stat_weapon_range = 1000
-weapon_projectile = obj_projectile
-
 stat_shield_max = 5
 stat_shield = 2
 stat_shield_charge_max = 300
