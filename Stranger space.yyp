@@ -287,6 +287,14 @@
             }
         },
         {
+            "Key": "30799480-54fb-4edb-a7fc-434f17aa29d6",
+            "Value": {
+                "id": "4951101a-8d9d-41b0-a0fa-2c87c81d5eaa",
+                "resourcePath": "objects\\obj_weapon_parent\\obj_weapon_parent.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "316a7980-9612-4f82-96fc-81b420cb574e",
             "Value": {
                 "id": "b13e60b1-6609-4d77-9fa6-0fc398ab6f28",
@@ -348,6 +356,14 @@
                 "id": "c06c872a-ff2c-48e1-b202-960cfe70c5b7",
                 "resourcePath": "sprites\\spr_ui_reactor\\spr_ui_reactor.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "38729254-7eb6-4272-974e-6960987e95d7",
+            "Value": {
+                "id": "f130239b-1dc5-41fe-ab56-13397224e3e7",
+                "resourcePath": "scripts\\scr_add_equipment\\scr_add_equipment.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -644,6 +660,14 @@
                 "id": "0455a925-8680-4307-8942-d03ad6c3edde",
                 "resourcePath": "sprites\\spr_ship_grig\\spr_ship_grig.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "887ce8fa-c850-4854-8250-baa0d828833a",
+            "Value": {
+                "id": "d803ea13-5f3f-485d-83e3-093dd3348705",
+                "resourcePath": "views\\887ce8fa-c850-4854-8250-baa0d828833a.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -1148,23 +1172,24 @@
         "9f494e00-5889-49b8-a11a-f3762c8a483a",
         "a889e41e-e9b1-49f5-b84c-42996ae5ced7",
         "049ce3ff-f947-4651-8311-3e7bef4200ef",
-        "ccadb242-25e0-422f-872f-4227c02ebf7b",
         "7a96eb20-0cd0-493e-8350-832fdbbc8820",
-        "0c5988ab-1d80-44b5-bd45-4df25a32f051",
+        "ccadb242-25e0-422f-872f-4227c02ebf7b",
         "6539e714-1502-4225-98e9-20b98611ac90",
         "1dd22e1a-1c6f-4fde-b4ff-2d0a9af71778",
         "0e0ed920-0561-4292-9f1c-de738cc5102b",
-        "326243ab-3c90-47ee-902b-8945e3ca86d4",
         "97af87d9-c936-445a-86cf-a99c0c346349",
-        "ef9406d6-9aa6-4a01-baa6-284bb1c2f50c",
-        "fc1ace8e-aa13-491d-ba33-afcd4424e71b",
+        "326243ab-3c90-47ee-902b-8945e3ca86d4",
         "ab771178-5b6f-45fd-a090-207c719dcf94",
-        "4cf51660-0d8f-4e15-be43-86bab5bbcfbe",
-        "01465954-4576-40a6-b190-203428bc6ae1",
         "1b3b6d7c-8eed-4892-87a4-b7b16827c08c",
         "67ee0399-6b11-4b13-8bef-adc0062d1118",
         "abc94d47-0387-4028-a3ba-c038bb595bd0",
+        "ef9406d6-9aa6-4a01-baa6-284bb1c2f50c",
+        "0c5988ab-1d80-44b5-bd45-4df25a32f051",
+        "fc1ace8e-aa13-491d-ba33-afcd4424e71b",
+        "4cf51660-0d8f-4e15-be43-86bab5bbcfbe",
+        "01465954-4576-40a6-b190-203428bc6ae1",
         "c8f4157a-4985-4361-94b5-c392f7c45a08",
+        "38729254-7eb6-4272-974e-6960987e95d7",
         "549e3238-ddc1-40bf-a093-afeb52bfcfe1",
         "303b1676-ae64-43e7-b304-7e3d51b9c3fe"
     ],

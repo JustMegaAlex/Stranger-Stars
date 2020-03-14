@@ -101,5 +101,9 @@ stat_shield_charge = 0
 stat_shield_charge_ratio_max = 5
 stat_shield_charge_ratio = 0
 
+//// weapons
+arr_weapon_objects = []
+max_weapons_number = 2
+
 // late init
 alarm[2] = -1 //off
