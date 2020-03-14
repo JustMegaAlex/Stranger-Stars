@@ -25,7 +25,7 @@ ui_weapon_icon_coord_y = obj_ui_weapon_icon.y
 var icon_w = sprite_get_width(spr_ui_weapon_icon)
 var gap_factor = 1.2
 for(var i=0; i<4; i++)
-	arr_weapon_icon_positions[i] = ui_weapon_icon_coord_x + icon_w*gap_factor * is
+	arr_weapon_icon_positions[i] = ui_weapon_icon_coord_x + icon_w*gap_factor * i
 
 //// ui interacting
 ui_mouse_x = window_mouse_get_x()
