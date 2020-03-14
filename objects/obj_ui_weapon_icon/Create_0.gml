@@ -20,4 +20,6 @@ param_heat = 0
 aim_controller = noone
 
 // charge ratio icon obj
-instance_create_layer(x, y, layer, obj_ui_weapon_charge_ratio)
+charge_ratio_obj = instance_create_layer(x, y, layer, obj_ui_weapon_charge_ratio)
+charge_ratio_obj.weapon_icon_obj = id
+charge_ratio_obj.weapon_obj = weapon_obj
