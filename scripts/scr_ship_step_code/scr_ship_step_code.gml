@@ -5,9 +5,11 @@ scr_navigate()
 /// stats update
 for(i=0; i<array_length_1d(arr_weapon_objects); i++) {
 	var weap_obj = arr_weapon_objects[i]
-	weap_obj.stat_charge = scr_approach(stat_charge,
-										stat_charge_max,
-										stat_charge_ratio)
+	with weap_obj {
+		stat_charge = scr_approach(stat_charge,
+											stat_charge_max,
+											stat_charge_ratio)
+	}
 }
 
 
