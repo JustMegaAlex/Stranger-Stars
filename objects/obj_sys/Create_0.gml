@@ -34,6 +34,14 @@ ui_mouse_x = window_mouse_get_x()
 ui_mouse_y = window_mouse_get_y()
 ui_station_interact_distance = 350
 
+//// inputs
+input = false
+mouse_left = false
+mouse_right = false
+key_aim = false
+key_stay = false
+key_cruise = false
+
 //// camera
 display_set_gui_size(window_get_width(), window_get_height())
 var view_w = view_get_wport(view_camera[0])
