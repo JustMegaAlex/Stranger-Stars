@@ -351,6 +351,14 @@
             }
         },
         {
+            "Key": "33aca534-04e0-403c-893e-97a336b48a96",
+            "Value": {
+                "id": "6cf1e71a-2035-44d6-85d1-9543b10e3e24",
+                "resourcePath": "objects\\obj_ui_toggle_button\\obj_ui_toggle_button.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "33c1145d-9dd5-42fa-a7c5-af2b424782ec",
             "Value": {
                 "id": "061d7194-bc37-4f31-a350-caa60b6e2a45",
