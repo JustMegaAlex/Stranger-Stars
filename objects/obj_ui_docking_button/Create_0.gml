@@ -7,6 +7,6 @@ _default = 0
 _interact_img = 1
 _checked_img = 2
 
-action_script = scr_ui_station_open_dialog
+action_script_interact = scr_ui_station_open_dialog
 
 visible = false

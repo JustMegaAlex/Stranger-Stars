@@ -5,7 +5,7 @@ event_inherited()
 _charge_img = 3
 _heat_img = 4
 
-action_script = scr_ui_weapon_icon_activate
+action_script_interact = scr_ui_weapon_icon_activate
 
 /// weapon ui obj
 weapon_obj = noone

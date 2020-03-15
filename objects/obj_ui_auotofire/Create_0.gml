@@ -1,4 +1,4 @@
 
 event_inherited()
 
-action_script = scr_ui_autofire_on
+action_script_interact = scr_ui_autofire_on
