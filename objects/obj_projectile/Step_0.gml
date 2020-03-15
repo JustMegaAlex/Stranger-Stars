@@ -3,6 +3,9 @@ image_angle = point_direction(x, y, target.x, target.y)
 
 if !obj_sys.active_pause_activated
 	scr_move(sp, image_angle)
+	
+if !instance_exists(target)
+	instance_destroy()
 
 if place_meeting(x, y, target) {
 	var xx, yy
@@ -23,8 +26,6 @@ if place_meeting(x, y, target) {
 			if !target.stat_hull
 				instance_destroy(target)
 		}
-		
-	}
-		
+	}	
 	instance_destroy()
 }
