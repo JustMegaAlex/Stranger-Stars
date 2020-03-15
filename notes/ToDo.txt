@@ -1,11 +1,9 @@
 ------ToDo---------
 	>>>>>>>>> Include in prototype <<<<<<<<<
 	>> shooting:
-		> autofire
 		> target aiming guidance
 		> asteroids
-		> shooting mechanics
-		> shield animation
+		> recode projectile reaction on target destoying
 	>> AI
 		> enemies mobs
 		> miner mobs
