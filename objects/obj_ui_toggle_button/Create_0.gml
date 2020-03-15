@@ -7,4 +7,3 @@ _interact_img = 1
 _checked_img = 2
 
 action_script_interact = scr_stub
-action_script_checked = scr_stub
