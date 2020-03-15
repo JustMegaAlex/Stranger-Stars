@@ -2,7 +2,7 @@
 
 //// gameplay attributes
 active_pause_activated = false
-weapon_autofire_active = false
+weapon_autofire_active = true
 
 //// ui
 // ui parts enum
