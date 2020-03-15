@@ -1,15 +1,14 @@
 
 if obj_sys.mouse_left {
-	if point_distance(obj_ship.x, 
-					obj_ship.y, 
-					mouse_x, 
-					mouse_y) <= obj_ship.stat_weapon_range
-	{	
+	if obj_sys.weapon_autofire_active or point_distance(obj_ship.x, 
+														obj_ship.y, 
+														mouse_x, 
+														mouse_y) <= weapon_obj.stat_range {
+						
 		var target = collision_point(mouse_x, mouse_y, obj_space_stuff, false, true)
 		if target
-			if target.object_index != obj_ship {
-				obj_ship.target_to_shoot = target	
-			}
+			if target.object_index != obj_ship 
+				weapon_obj.target = target
 	}
 	
 	with obj_ui_weapon_icon {

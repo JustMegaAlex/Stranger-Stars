@@ -17,6 +17,8 @@
 		> docking
 	>> equipment system:
 		> engine superthrust mode (in the end of demo)
+	>> ui:
+		> spare energy indicator
 	
 	>>>>>>Don<<<<<<<
 	>> flying

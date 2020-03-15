@@ -1,7 +1,8 @@
 
 image_angle = point_direction(x, y, target.x, target.y)
 
-scr_move(sp, image_angle)
+if !obj_sys.active_pause_activated
+	scr_move(sp, image_angle)
 
 if place_meeting(x, y, target) {
 	var xx, yy

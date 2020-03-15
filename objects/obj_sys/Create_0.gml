@@ -1,7 +1,8 @@
 //////////init gameplay
 
-//// active pause
+//// gameplay attributes
 active_pause_activated = false
+weapon_autofire_active = true
 
 //// ui
 // ui parts enum
@@ -19,10 +20,27 @@ ui_controller = noone	//
 
 draw_set_font(fnt_ui)
 
-// ui interacting
+//// ui elements coordinates
+ui_weapon_icon_coord_x = obj_ui_weapon_icon_mockup.x
+ui_weapon_icon_coord_y = obj_ui_weapon_icon_mockup.y
+instance_destroy(obj_ui_weapon_icon_mockup)
+var icon_w = sprite_get_width(spr_ui_weapon_icon)
+var gap_factor = 1.2
+for(var i=0; i<4; i++)
+	arr_weapon_icon_positions[i] = ui_weapon_icon_coord_x + icon_w*gap_factor * i
+
+//// ui interacting
 ui_mouse_x = window_mouse_get_x()
 ui_mouse_y = window_mouse_get_y()
 ui_station_interact_distance = 350
+
+//// inputs
+input = false
+mouse_left = false
+mouse_right = false
+key_aim = false
+key_stay = false
+key_cruise = false
 
 //// camera
 display_set_gui_size(window_get_width(), window_get_height())
