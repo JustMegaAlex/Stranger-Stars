@@ -3,7 +3,7 @@ image_angle = point_direction(x, y, target.x, target.y)
 
 if !obj_sys.active_pause_activated
 	scr_move(sp, image_angle)
-	
+
 if !instance_exists(target)
 	instance_destroy()
 

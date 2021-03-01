@@ -1,3 +1,7 @@
 ///scr_tactical_pause_activate(on)
 ///@arg on
-obj_sys.active_pause_activated = argument0
+function scr_tactical_pause_activate(argument0) {
+	obj_sys.active_pause_activated = argument0
+
+
+}

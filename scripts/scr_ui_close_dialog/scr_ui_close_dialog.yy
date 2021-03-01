@@ -1,8 +1,12 @@
 {
-    "id": "59998963-ddda-41d1-b0c1-786101a70772",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "scr_ui_close_dialog",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "UI",
+    "path": "folders/Scripts/System/UI.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "scr_ui_close_dialog",
+  "tags": [],
+  "resourceType": "GMScript",
 }

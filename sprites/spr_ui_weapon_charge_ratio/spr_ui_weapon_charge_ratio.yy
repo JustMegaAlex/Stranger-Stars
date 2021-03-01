@@ -1,136 +1,90 @@
 {
-    "id": "5cd16112-4d64-4edb-a080-e45c559424e0",
-    "modelName": "GMSprite",
-    "mvc": "1.12",
-    "name": "spr_ui_weapon_charge_ratio",
-    "For3D": false,
-    "HTile": false,
-    "VTile": false,
-    "bbox_bottom": 61,
-    "bbox_left": 0,
-    "bbox_right": 13,
-    "bbox_top": 0,
-    "bboxmode": 0,
-    "colkind": 0,
-    "coltolerance": 0,
-    "edgeFiltering": false,
-    "frames": [
-        {
-            "id": "8863d28a-8cfd-495b-8daa-a85e193252fb",
-            "modelName": "GMSpriteFrame",
-            "mvc": "1.0",
-            "SpriteId": "5cd16112-4d64-4edb-a080-e45c559424e0",
-            "compositeImage": {
-                "id": "22d215b6-9c5f-44d2-9fae-b87bb10a449d",
-                "modelName": "GMSpriteImage",
-                "mvc": "1.0",
-                "FrameId": "8863d28a-8cfd-495b-8daa-a85e193252fb",
-                "LayerId": "00000000-0000-0000-0000-000000000000"
-            },
-            "images": [
-                {
-                    "id": "37ef655c-91e2-4146-a214-01856e8f154d",
-                    "modelName": "GMSpriteImage",
-                    "mvc": "1.0",
-                    "FrameId": "8863d28a-8cfd-495b-8daa-a85e193252fb",
-                    "LayerId": "556bfe52-6c75-44b8-984d-458352821ffb"
-                }
-            ]
-        },
-        {
-            "id": "5eb2ab3c-f4fd-4804-b0d9-12c15555148e",
-            "modelName": "GMSpriteFrame",
-            "mvc": "1.0",
-            "SpriteId": "5cd16112-4d64-4edb-a080-e45c559424e0",
-            "compositeImage": {
-                "id": "edb5ff9c-a437-4f61-8c15-168db1bf8e42",
-                "modelName": "GMSpriteImage",
-                "mvc": "1.0",
-                "FrameId": "5eb2ab3c-f4fd-4804-b0d9-12c15555148e",
-                "LayerId": "00000000-0000-0000-0000-000000000000"
-            },
-            "images": [
-                {
-                    "id": "19a3080a-5c23-4ede-9798-4f320940db96",
-                    "modelName": "GMSpriteImage",
-                    "mvc": "1.0",
-                    "FrameId": "5eb2ab3c-f4fd-4804-b0d9-12c15555148e",
-                    "LayerId": "556bfe52-6c75-44b8-984d-458352821ffb"
-                }
-            ]
-        },
-        {
-            "id": "440e2ccd-49f7-4ec9-9300-124dcf083fe4",
-            "modelName": "GMSpriteFrame",
-            "mvc": "1.0",
-            "SpriteId": "5cd16112-4d64-4edb-a080-e45c559424e0",
-            "compositeImage": {
-                "id": "a989e7a9-d733-48a4-863b-dc4793f09261",
-                "modelName": "GMSpriteImage",
-                "mvc": "1.0",
-                "FrameId": "440e2ccd-49f7-4ec9-9300-124dcf083fe4",
-                "LayerId": "00000000-0000-0000-0000-000000000000"
-            },
-            "images": [
-                {
-                    "id": "5635bd8e-9043-445d-9cee-03ddd6e30225",
-                    "modelName": "GMSpriteImage",
-                    "mvc": "1.0",
-                    "FrameId": "440e2ccd-49f7-4ec9-9300-124dcf083fe4",
-                    "LayerId": "556bfe52-6c75-44b8-984d-458352821ffb"
-                }
-            ]
-        },
-        {
-            "id": "94f73146-1354-44e5-9291-de864ef0f380",
-            "modelName": "GMSpriteFrame",
-            "mvc": "1.0",
-            "SpriteId": "5cd16112-4d64-4edb-a080-e45c559424e0",
-            "compositeImage": {
-                "id": "f2f0f16a-8b72-4f32-ad64-bcb4b0762f58",
-                "modelName": "GMSpriteImage",
-                "mvc": "1.0",
-                "FrameId": "94f73146-1354-44e5-9291-de864ef0f380",
-                "LayerId": "00000000-0000-0000-0000-000000000000"
-            },
-            "images": [
-                {
-                    "id": "3f1fc43c-9c9d-4a02-9f20-07b651558d9e",
-                    "modelName": "GMSpriteImage",
-                    "mvc": "1.0",
-                    "FrameId": "94f73146-1354-44e5-9291-de864ef0f380",
-                    "LayerId": "556bfe52-6c75-44b8-984d-458352821ffb"
-                }
-            ]
-        }
-    ],
-    "gridX": 0,
-    "gridY": 0,
-    "height": 62,
-    "layers": [
-        {
-            "id": "556bfe52-6c75-44b8-984d-458352821ffb",
-            "modelName": "GMImageLayer",
-            "mvc": "1.0",
-            "SpriteId": "5cd16112-4d64-4edb-a080-e45c559424e0",
-            "blendMode": 0,
-            "isLocked": false,
-            "name": "Layer 1",
-            "opacity": 100,
-            "visible": true
-        }
-    ],
-    "origin": 0,
-    "originLocked": false,
-    "playbackSpeed": 15,
+  "bboxMode": 0,
+  "collisionKind": 0,
+  "type": 0,
+  "origin": 0,
+  "preMultiplyAlpha": false,
+  "edgeFiltering": false,
+  "collisionTolerance": 0,
+  "swfPrecision": 2.525,
+  "bbox_left": 0,
+  "bbox_right": 13,
+  "bbox_top": 0,
+  "bbox_bottom": 61,
+  "HTile": false,
+  "VTile": false,
+  "For3D": false,
+  "width": 14,
+  "height": 62,
+  "textureGroupId": {
+    "name": "Default",
+    "path": "texturegroups/Default",
+  },
+  "swatchColours": null,
+  "gridX": 0,
+  "gridY": 0,
+  "frames": [
+    {"compositeImage":{"FrameId":{"name":"8863d28a-8cfd-495b-8daa-a85e193252fb","path":"sprites/spr_ui_weapon_charge_ratio/spr_ui_weapon_charge_ratio.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"8863d28a-8cfd-495b-8daa-a85e193252fb","path":"sprites/spr_ui_weapon_charge_ratio/spr_ui_weapon_charge_ratio.yy",},"LayerId":{"name":"556bfe52-6c75-44b8-984d-458352821ffb","path":"sprites/spr_ui_weapon_charge_ratio/spr_ui_weapon_charge_ratio.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_ui_weapon_charge_ratio","path":"sprites/spr_ui_weapon_charge_ratio/spr_ui_weapon_charge_ratio.yy",},"resourceVersion":"1.0","name":"8863d28a-8cfd-495b-8daa-a85e193252fb","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"5eb2ab3c-f4fd-4804-b0d9-12c15555148e","path":"sprites/spr_ui_weapon_charge_ratio/spr_ui_weapon_charge_ratio.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"5eb2ab3c-f4fd-4804-b0d9-12c15555148e","path":"sprites/spr_ui_weapon_charge_ratio/spr_ui_weapon_charge_ratio.yy",},"LayerId":{"name":"556bfe52-6c75-44b8-984d-458352821ffb","path":"sprites/spr_ui_weapon_charge_ratio/spr_ui_weapon_charge_ratio.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_ui_weapon_charge_ratio","path":"sprites/spr_ui_weapon_charge_ratio/spr_ui_weapon_charge_ratio.yy",},"resourceVersion":"1.0","name":"5eb2ab3c-f4fd-4804-b0d9-12c15555148e","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"440e2ccd-49f7-4ec9-9300-124dcf083fe4","path":"sprites/spr_ui_weapon_charge_ratio/spr_ui_weapon_charge_ratio.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"440e2ccd-49f7-4ec9-9300-124dcf083fe4","path":"sprites/spr_ui_weapon_charge_ratio/spr_ui_weapon_charge_ratio.yy",},"LayerId":{"name":"556bfe52-6c75-44b8-984d-458352821ffb","path":"sprites/spr_ui_weapon_charge_ratio/spr_ui_weapon_charge_ratio.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_ui_weapon_charge_ratio","path":"sprites/spr_ui_weapon_charge_ratio/spr_ui_weapon_charge_ratio.yy",},"resourceVersion":"1.0","name":"440e2ccd-49f7-4ec9-9300-124dcf083fe4","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"94f73146-1354-44e5-9291-de864ef0f380","path":"sprites/spr_ui_weapon_charge_ratio/spr_ui_weapon_charge_ratio.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"94f73146-1354-44e5-9291-de864ef0f380","path":"sprites/spr_ui_weapon_charge_ratio/spr_ui_weapon_charge_ratio.yy",},"LayerId":{"name":"556bfe52-6c75-44b8-984d-458352821ffb","path":"sprites/spr_ui_weapon_charge_ratio/spr_ui_weapon_charge_ratio.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_ui_weapon_charge_ratio","path":"sprites/spr_ui_weapon_charge_ratio/spr_ui_weapon_charge_ratio.yy",},"resourceVersion":"1.0","name":"94f73146-1354-44e5-9291-de864ef0f380","tags":[],"resourceType":"GMSpriteFrame",},
+  ],
+  "sequence": {
+    "spriteId": {"name":"spr_ui_weapon_charge_ratio","path":"sprites/spr_ui_weapon_charge_ratio/spr_ui_weapon_charge_ratio.yy",},
+    "timeUnits": 1,
+    "playback": 1,
+    "playbackSpeed": 15.0,
     "playbackSpeedType": 0,
-    "premultiplyAlpha": false,
-    "sepmasks": false,
-    "swatchColours": null,
-    "swfPrecision": 2.525,
-    "textureGroupId": "1225f6b0-ac20-43bd-a82e-be73fa0b6f4f",
-    "type": 0,
-    "width": 14,
-    "xorig": 0,
-    "yorig": 0
+    "autoRecord": true,
+    "volume": 1.0,
+    "length": 4.0,
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
+    "tracks": [
+      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"f157c3e3-7629-4d5f-becc-31c87c5b7730","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8863d28a-8cfd-495b-8daa-a85e193252fb","path":"sprites/spr_ui_weapon_charge_ratio/spr_ui_weapon_charge_ratio.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"4f42f6c8-e294-4b07-b814-95cd5d936ad4","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5eb2ab3c-f4fd-4804-b0d9-12c15555148e","path":"sprites/spr_ui_weapon_charge_ratio/spr_ui_weapon_charge_ratio.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"65e99fac-e235-4658-bce0-2be19f973579","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"440e2ccd-49f7-4ec9-9300-124dcf083fe4","path":"sprites/spr_ui_weapon_charge_ratio/spr_ui_weapon_charge_ratio.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"ce9263b2-8b32-4241-9583-d2a4c0c45eaf","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"94f73146-1354-44e5-9291-de864ef0f380","path":"sprites/spr_ui_weapon_charge_ratio/spr_ui_weapon_charge_ratio.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+    ],
+    "visibleRange": {"x":0.0,"y":0.0,},
+    "lockOrigin": false,
+    "showBackdrop": true,
+    "showBackdropImage": false,
+    "backdropImagePath": "",
+    "backdropImageOpacity": 0.5,
+    "backdropWidth": 1920,
+    "backdropHeight": 1080,
+    "backdropXOffset": 0.0,
+    "backdropYOffset": 0.0,
+    "xorigin": 0,
+    "yorigin": 0,
+    "eventToFunction": {},
+    "eventStubScript": null,
+    "parent": {"name":"spr_ui_weapon_charge_ratio","path":"sprites/spr_ui_weapon_charge_ratio/spr_ui_weapon_charge_ratio.yy",},
+    "resourceVersion": "1.3",
+    "name": "",
+    "tags": [],
+    "resourceType": "GMSequence",
+  },
+  "layers": [
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"556bfe52-6c75-44b8-984d-458352821ffb","tags":[],"resourceType":"GMImageLayer",},
+  ],
+  "parent": {
+    "name": "UI",
+    "path": "folders/Sprites/UI.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "spr_ui_weapon_charge_ratio",
+  "tags": [],
+  "resourceType": "GMSprite",
 }

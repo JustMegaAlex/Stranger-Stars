@@ -1,8 +1,12 @@
 {
-    "id": "ccadb242-25e0-422f-872f-4227c02ebf7b",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "scr_trajectAddPoint",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Navigation",
+    "path": "folders/Scripts/Ship/Navigation.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "scr_trajectAddPoint",
+  "tags": [],
+  "resourceType": "GMScript",
 }

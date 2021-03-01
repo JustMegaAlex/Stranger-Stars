@@ -1,7 +1,11 @@
-part_particles_create(obj_sys.part_sys_effects,  
-							x, y, 
-							obj_sys.part_ship_explosion, 1)
-alarm[_destroy_alarm] = destroy_delay_time
+function scr_destroy() {
+	part_particles_create(obj_sys.part_sys_effects,  
+								x, y, 
+								obj_sys.part_ship_explosion, 1)
+	alarm[_destroy_alarm] = destroy_delay_time
 
-//freeze
-scr_step_code = scr_stub
+	//freeze
+	scr_step_code = scr_stub
+
+
+}
