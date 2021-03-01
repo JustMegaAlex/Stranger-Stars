@@ -6,7 +6,7 @@ if interacting {
 			image_index = interacting
 			break
 		}
-	
+
 		case _interact_img: {
 			image_index = interacting
 			if obj_sys.mouse_left {
@@ -16,7 +16,7 @@ if interacting {
 			}
 			break
 		}
-	
+
 		case _checked_img: {
 			if obj_sys.mouse_left {
 				obj_sys.mouse_left = false
@@ -25,4 +25,7 @@ if interacting {
 			break
 		}
 	}
+}
+else {
+	image_index = _default
 }
