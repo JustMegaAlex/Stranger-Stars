@@ -7,6 +7,4 @@ function scr_set_dir_point(argument0, argument1) {
 
 	if abs(rel_target_dir) < rotation_sp
 		image_angle = target_dir
-
-
 }
