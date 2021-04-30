@@ -11,24 +11,15 @@ function scr_navigate() {
 		}
 
 		case Navigation.control: {
+			// just keep moving if sp > 0
 			scr_move_contact(sp, image_angle)
 
 			if target_dist > glide_distance {
-				scr_navigation_set(Navigation.take_speed)
+				scr_navigation_set(Navigation.get_on_course)
 			}
 			else if target_dist {
 				scr_navigation_set(Navigation.glide)
 			}
-			break
-		}
-
-		case Navigation.take_speed: {
-			sp = scr_approach(sp, sp_to, accel)
-			scr_move_contact(sp, image_angle)
-			if abs(sp - sp_to) < accel {
-				scr_navigation_set(Navigation.get_on_course_pre)
-			}
-
 			break
 		}
 
@@ -53,6 +44,13 @@ function scr_navigate() {
 		}
 
 		case Navigation.get_on_course: {
+			
+			correct = point_distance(xc, yc, target_x, target_y)
+
+			 if point_distance(xc, yc, target_x, target_y) < rc
+				sp_to -= accel
+			
+			sp = scr_approach(sp, sp_to, accel)
 			scr_move_contact(sp, image_angle)
 			scr_set_dir_point(target_x, target_y)
 
@@ -64,6 +62,7 @@ function scr_navigate() {
 		}
 
 		case Navigation.approach: {
+			sp = scr_approach(sp, sp_cruise, accel)
 			scr_move_contact(sp, image_angle)
 
 			if !navigation_cruise_mode

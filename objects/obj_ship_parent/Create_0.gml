@@ -62,6 +62,12 @@ target_y = y
 dir_target_x = x
 dir_target_y = y
 target_dist = 0
+// navigation correction
+omega_sign = 0
+omega = 0
+rc = 1000
+xc = 0
+yc = 0
 
 // shooting
 target_to_shoot = noone
@@ -107,3 +113,18 @@ max_weapons_number = 2
 
 // late init
 alarm[2] = -1 //off
+
+function target_navigation_correction() {
+	omega_sign = sign(rel_target_dir)
+	omega = degtorad(rotation_sp * omega_sign)
+	rc = 1000
+	if omega != 0
+		rc = abs(sp / omega)
+	xc = x + lengthdir_x(rc * omega_sign, image_angle + 90) 
+	yc = y + lengthdir_y(rc * omega_sign, image_angle + 90)	
+}
+
+function target_navigation_correction_debug_draw() {
+	draw_line(x, y, xc, yc)
+	draw_circle(xc, yc, rc, true)
+}
