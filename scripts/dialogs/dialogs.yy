@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Dialogs",
-    "path": "folders/Scripts/System/Dialogs.yy",
+    "name": "System",
+    "path": "folders/Scripts/System.yy",
   },
   "resourceVersion": "1.0",
-  "name": "scr_dialog_page_add_button",
+  "name": "dialogs",
   "tags": [],
   "resourceType": "GMScript",
 }
