@@ -1,8 +1,12 @@
 {
-    "id": "14fc7e7c-7bb8-45ec-b25f-218811d46588",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "scr_debug_showVar",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Debug",
+    "path": "folders/Scripts/Debug.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "scr_debug_showVar",
+  "tags": [],
+  "resourceType": "GMScript",
 }

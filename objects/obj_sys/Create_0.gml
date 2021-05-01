@@ -57,7 +57,7 @@ show_tips_y = (view_h - sprite_get_height(spr_control_tips) * show_tips_scale) -
 alarm[0] = -1 // tips turn off
 
 //// ini of debug scripts' vars
-scr_debugINI();
+scr_debugINI()
 
 //// background
 var surf_size = 2
@@ -66,6 +66,7 @@ var surf_h = view_h*surf_size
 var stars_num = 80
 surf_stars = surface_create(surf_w, surf_h)
 surface_set_target(surf_stars)
+// draw stars
 repeat(stars_num)
     draw_sprite(spr_stars,irandom(sprite_get_number(spr_stars)),
 				random(surf_w),

@@ -1,8 +1,12 @@
 {
-    "id": "303b1676-ae64-43e7-b304-7e3d51b9c3fe",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "scr_stub",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Scripts",
+    "path": "folders/Scripts.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "scr_stub",
+  "tags": [],
+  "resourceType": "GMScript",
 }

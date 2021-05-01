@@ -1,117 +1,85 @@
 {
-    "id": "1252adf5-63ba-4ea5-b7e4-9d379dfe0e55",
-    "modelName": "GMSprite",
-    "mvc": "1.12",
-    "name": "spr_ship_red_goblin",
-    "For3D": false,
-    "HTile": false,
-    "VTile": false,
-    "bbox_bottom": 107,
-    "bbox_left": 3,
-    "bbox_right": 117,
-    "bbox_top": 2,
-    "bboxmode": 0,
-    "colkind": 2,
-    "coltolerance": 0,
-    "edgeFiltering": false,
-    "frames": [
-        {
-            "id": "6d266231-73c1-4ce8-b095-484e8cacf5a6",
-            "modelName": "GMSpriteFrame",
-            "mvc": "1.0",
-            "SpriteId": "1252adf5-63ba-4ea5-b7e4-9d379dfe0e55",
-            "compositeImage": {
-                "id": "75cd855b-c9f5-4450-9350-93863e0a0bdc",
-                "modelName": "GMSpriteImage",
-                "mvc": "1.0",
-                "FrameId": "6d266231-73c1-4ce8-b095-484e8cacf5a6",
-                "LayerId": "00000000-0000-0000-0000-000000000000"
-            },
-            "images": [
-                {
-                    "id": "502a390e-be4f-4ccf-9b08-eb8306379850",
-                    "modelName": "GMSpriteImage",
-                    "mvc": "1.0",
-                    "FrameId": "6d266231-73c1-4ce8-b095-484e8cacf5a6",
-                    "LayerId": "4246d9ad-088d-4d82-9bd9-becdee04c40d"
-                },
-                {
-                    "id": "e04ba9b1-ce03-49dd-8f8d-0ca1d252463b",
-                    "modelName": "GMSpriteImage",
-                    "mvc": "1.0",
-                    "FrameId": "6d266231-73c1-4ce8-b095-484e8cacf5a6",
-                    "LayerId": "cc0e8017-3ee4-4298-aa23-3e1f784a6851"
-                }
-            ]
-        },
-        {
-            "id": "3d6c7b27-24f7-4540-b8bf-1a2bfe9b907d",
-            "modelName": "GMSpriteFrame",
-            "mvc": "1.0",
-            "SpriteId": "1252adf5-63ba-4ea5-b7e4-9d379dfe0e55",
-            "compositeImage": {
-                "id": "dcffde14-cbb9-46f6-a860-e467d673b85d",
-                "modelName": "GMSpriteImage",
-                "mvc": "1.0",
-                "FrameId": "3d6c7b27-24f7-4540-b8bf-1a2bfe9b907d",
-                "LayerId": "00000000-0000-0000-0000-000000000000"
-            },
-            "images": [
-                {
-                    "id": "66e4fca1-caae-4b2f-bb74-70cec433d814",
-                    "modelName": "GMSpriteImage",
-                    "mvc": "1.0",
-                    "FrameId": "3d6c7b27-24f7-4540-b8bf-1a2bfe9b907d",
-                    "LayerId": "cc0e8017-3ee4-4298-aa23-3e1f784a6851"
-                },
-                {
-                    "id": "1fadf7cd-375f-4e4e-977b-98e42e9d2a28",
-                    "modelName": "GMSpriteImage",
-                    "mvc": "1.0",
-                    "FrameId": "3d6c7b27-24f7-4540-b8bf-1a2bfe9b907d",
-                    "LayerId": "4246d9ad-088d-4d82-9bd9-becdee04c40d"
-                }
-            ]
-        }
-    ],
-    "gridX": 0,
-    "gridY": 0,
-    "height": 110,
-    "layers": [
-        {
-            "id": "cc0e8017-3ee4-4298-aa23-3e1f784a6851",
-            "modelName": "GMImageLayer",
-            "mvc": "1.0",
-            "SpriteId": "1252adf5-63ba-4ea5-b7e4-9d379dfe0e55",
-            "blendMode": 0,
-            "isLocked": false,
-            "name": "default",
-            "opacity": 100,
-            "visible": true
-        },
-        {
-            "id": "4246d9ad-088d-4d82-9bd9-becdee04c40d",
-            "modelName": "GMImageLayer",
-            "mvc": "1.0",
-            "SpriteId": "1252adf5-63ba-4ea5-b7e4-9d379dfe0e55",
-            "blendMode": 0,
-            "isLocked": false,
-            "name": "default",
-            "opacity": 100,
-            "visible": true
-        }
-    ],
-    "origin": 9,
-    "originLocked": false,
-    "playbackSpeed": 15,
+  "bboxMode": 0,
+  "collisionKind": 2,
+  "type": 0,
+  "origin": 9,
+  "preMultiplyAlpha": false,
+  "edgeFiltering": false,
+  "collisionTolerance": 0,
+  "swfPrecision": 2.525,
+  "bbox_left": 3,
+  "bbox_right": 117,
+  "bbox_top": 2,
+  "bbox_bottom": 107,
+  "HTile": false,
+  "VTile": false,
+  "For3D": false,
+  "width": 120,
+  "height": 110,
+  "textureGroupId": {
+    "name": "Default",
+    "path": "texturegroups/Default",
+  },
+  "swatchColours": null,
+  "gridX": 0,
+  "gridY": 0,
+  "frames": [
+    {"compositeImage":{"FrameId":{"name":"6d266231-73c1-4ce8-b095-484e8cacf5a6","path":"sprites/spr_ship_red_goblin/spr_ship_red_goblin.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"6d266231-73c1-4ce8-b095-484e8cacf5a6","path":"sprites/spr_ship_red_goblin/spr_ship_red_goblin.yy",},"LayerId":{"name":"cc0e8017-3ee4-4298-aa23-3e1f784a6851","path":"sprites/spr_ship_red_goblin/spr_ship_red_goblin.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"6d266231-73c1-4ce8-b095-484e8cacf5a6","path":"sprites/spr_ship_red_goblin/spr_ship_red_goblin.yy",},"LayerId":{"name":"4246d9ad-088d-4d82-9bd9-becdee04c40d","path":"sprites/spr_ship_red_goblin/spr_ship_red_goblin.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_ship_red_goblin","path":"sprites/spr_ship_red_goblin/spr_ship_red_goblin.yy",},"resourceVersion":"1.0","name":"6d266231-73c1-4ce8-b095-484e8cacf5a6","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"3d6c7b27-24f7-4540-b8bf-1a2bfe9b907d","path":"sprites/spr_ship_red_goblin/spr_ship_red_goblin.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"3d6c7b27-24f7-4540-b8bf-1a2bfe9b907d","path":"sprites/spr_ship_red_goblin/spr_ship_red_goblin.yy",},"LayerId":{"name":"cc0e8017-3ee4-4298-aa23-3e1f784a6851","path":"sprites/spr_ship_red_goblin/spr_ship_red_goblin.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"3d6c7b27-24f7-4540-b8bf-1a2bfe9b907d","path":"sprites/spr_ship_red_goblin/spr_ship_red_goblin.yy",},"LayerId":{"name":"4246d9ad-088d-4d82-9bd9-becdee04c40d","path":"sprites/spr_ship_red_goblin/spr_ship_red_goblin.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_ship_red_goblin","path":"sprites/spr_ship_red_goblin/spr_ship_red_goblin.yy",},"resourceVersion":"1.0","name":"3d6c7b27-24f7-4540-b8bf-1a2bfe9b907d","tags":[],"resourceType":"GMSpriteFrame",},
+  ],
+  "sequence": {
+    "spriteId": {"name":"spr_ship_red_goblin","path":"sprites/spr_ship_red_goblin/spr_ship_red_goblin.yy",},
+    "timeUnits": 1,
+    "playback": 1,
+    "playbackSpeed": 15.0,
     "playbackSpeedType": 0,
-    "premultiplyAlpha": false,
-    "sepmasks": false,
-    "swatchColours": null,
-    "swfPrecision": 2.525,
-    "textureGroupId": "1225f6b0-ac20-43bd-a82e-be73fa0b6f4f",
-    "type": 0,
-    "width": 120,
-    "xorig": 39,
-    "yorig": 55
+    "autoRecord": true,
+    "volume": 1.0,
+    "length": 2.0,
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
+    "tracks": [
+      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"aad92e5d-57f1-48b8-9d24-537516bbe91e","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6d266231-73c1-4ce8-b095-484e8cacf5a6","path":"sprites/spr_ship_red_goblin/spr_ship_red_goblin.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"3790e633-597b-4031-82c7-ebe912604e2c","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3d6c7b27-24f7-4540-b8bf-1a2bfe9b907d","path":"sprites/spr_ship_red_goblin/spr_ship_red_goblin.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+    ],
+    "visibleRange": {"x":0.0,"y":0.0,},
+    "lockOrigin": false,
+    "showBackdrop": true,
+    "showBackdropImage": false,
+    "backdropImagePath": "",
+    "backdropImageOpacity": 0.5,
+    "backdropWidth": 1920,
+    "backdropHeight": 1080,
+    "backdropXOffset": 0.0,
+    "backdropYOffset": 0.0,
+    "xorigin": 39,
+    "yorigin": 55,
+    "eventToFunction": {},
+    "eventStubScript": null,
+    "parent": {"name":"spr_ship_red_goblin","path":"sprites/spr_ship_red_goblin/spr_ship_red_goblin.yy",},
+    "resourceVersion": "1.3",
+    "name": "",
+    "tags": [],
+    "resourceType": "GMSequence",
+  },
+  "layers": [
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"cc0e8017-3ee4-4298-aa23-3e1f784a6851","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"4246d9ad-088d-4d82-9bd9-becdee04c40d","tags":[],"resourceType":"GMImageLayer",},
+  ],
+  "parent": {
+    "name": "Ships",
+    "path": "folders/Sprites/Ships.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "spr_ship_red_goblin",
+  "tags": [],
+  "resourceType": "GMSprite",
 }

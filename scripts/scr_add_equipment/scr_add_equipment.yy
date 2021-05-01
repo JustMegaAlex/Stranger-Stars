@@ -1,8 +1,12 @@
 {
-    "id": "38729254-7eb6-4272-974e-6960987e95d7",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "scr_add_equipment",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Ship",
+    "path": "folders/Scripts/Ship.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "scr_add_equipment",
+  "tags": [],
+  "resourceType": "GMScript",
 }
