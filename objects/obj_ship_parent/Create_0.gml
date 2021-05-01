@@ -210,7 +210,7 @@ scr_fill_list_from_array(list_sp_levels, [0.25, 0.5, 1, 2])
 
 // navigation
 navigation_cruise_mode = false //true -> not stoping after reaching target point
-break_down_dist = 0	// dist to stop at the target point
+break_down_dist = 100	// dist to stop at the target point
 rot_radius = 0		// radius of rotating trajectory
 sp_level_set = Sp_level.normal
 sp_glide = 0
