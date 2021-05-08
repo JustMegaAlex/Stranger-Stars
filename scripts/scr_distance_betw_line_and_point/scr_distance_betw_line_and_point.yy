@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "GoodOldSpace",
-    "path": "GoodOldSpace.yyp",
+    "name": "Navigation",
+    "path": "folders/Scripts/Ship/Navigation.yy",
   },
   "resourceVersion": "1.0",
-  "name": "dialogs",
+  "name": "scr_distance_betw_line_and_point",
   "tags": [],
   "resourceType": "GMScript",
 }

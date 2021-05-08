@@ -1,8 +1,8 @@
 
-scr_debug_showVar("omega_sign", omega_sign)
-scr_debug_showVar("omega", omega)
-scr_debug_showVar("rc", rc)
-scr_debug_showVar("correct", correct)
+scr_debug_show_var("omega_sign", omega_sign)
+scr_debug_show_var("omega", omega)
+scr_debug_show_var("rc", rc)
+scr_debug_show_var("correct", correct)
 
 
 // omega_sign = sign(rel_target_dir)

@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "GoodOldSpace",
-    "path": "GoodOldSpace.yyp",
+    "name": "Debug",
+    "path": "folders/Scripts/Debug.yy",
   },
   "resourceVersion": "1.0",
-  "name": "dialogs",
+  "name": "scr_debug_showVar",
   "tags": [],
   "resourceType": "GMScript",
 }

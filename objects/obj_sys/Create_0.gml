@@ -1,5 +1,5 @@
 //////////init gameplay
-
+scr_debug_ini()
 //// gameplay attributes
 active_pause_activated = false
 weapon_autofire_active = true
@@ -55,9 +55,6 @@ show_tips_scale = 2
 show_tips_x = (view_w - sprite_get_width(spr_control_tips) * show_tips_scale) + 50// * 0.5
 show_tips_y = (view_h - sprite_get_height(spr_control_tips) * show_tips_scale) - 40// * 0.5
 alarm[0] = -1 // tips turn off
-
-//// ini of debug scripts' vars
-scr_debugINI()
 
 //// background
 var surf_size = 2

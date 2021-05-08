@@ -1,2 +1,2 @@
 
-scr_debug_showVar("target", target)
+scr_debug_show_var("target", target)

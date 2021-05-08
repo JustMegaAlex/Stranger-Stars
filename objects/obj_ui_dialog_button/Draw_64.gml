@@ -6,4 +6,4 @@ draw_text(x_text, y_text, text)
 
 draw_sprite(spr_ui_choose_dot, image_index, x, y)
 
-scr_debug_showVar("dbtn", image_index)
+scr_debug_show_var("dbtn", image_index)

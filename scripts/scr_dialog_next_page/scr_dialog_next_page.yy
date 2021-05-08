@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "GoodOldSpace",
-    "path": "GoodOldSpace.yyp",
+    "name": "Dialogs",
+    "path": "folders/Scripts/System/Dialogs.yy",
   },
   "resourceVersion": "1.0",
-  "name": "dialogs",
+  "name": "scr_dialog_next_page",
   "tags": [],
   "resourceType": "GMScript",
 }

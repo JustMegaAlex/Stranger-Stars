@@ -44,7 +44,6 @@
     {"id":{"name":"scr_ui_comm_point_target","path":"scripts/scr_ui_comm_point_target/scr_ui_comm_point_target.yy",},"order":13,},
     {"id":{"name":"scr_ui_station_open_dialog","path":"scripts/scr_ui_station_open_dialog/scr_ui_station_open_dialog.yy",},"order":15,},
     {"id":{"name":"scr_ui_autofire_on","path":"scripts/scr_ui_autofire_on/scr_ui_autofire_on.yy",},"order":17,},
-    {"id":{"name":"scr_get_dialog_data","path":"scripts/scr_get_dialog_data/scr_get_dialog_data.yy",},"order":1,},
     {"id":{"name":"scr_tactical_pause_activate","path":"scripts/scr_tactical_pause_activate/scr_tactical_pause_activate.yy",},"order":7,},
     {"id":{"name":"scr_approach","path":"scripts/scr_approach/scr_approach.yy",},"order":9,},
     {"id":{"name":"scr_fill_list_from_array","path":"scripts/scr_fill_list_from_array/scr_fill_list_from_array.yy",},"order":11,},
