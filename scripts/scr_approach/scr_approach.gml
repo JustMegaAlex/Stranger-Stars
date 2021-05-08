@@ -10,6 +10,4 @@ function scr_approach(argument0, argument1, argument2) {
 	var sp = argument2*sign(delta) 
 
 	return argument0 + sp
-
-
 }
